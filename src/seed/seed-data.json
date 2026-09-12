@@ -1,0 +1,2563 @@
+{
+  "patients": [
+    {
+      "id": "PT-1024",
+      "name": "Arun Kumar",
+      "age": 34,
+      "dob": "1992-04-15",
+      "gender": "Male",
+      "phone": "+91 98401 23456",
+      "email": "arun.kumar@example.com",
+      "address": "42 Nehru Nagar, Chennai, Tamil Nadu",
+      "bloodGroup": "B+",
+      "emergencyContact": {
+        "name": "Deepa Kumar",
+        "relationship": "Spouse",
+        "phone": "+91 98401 23457"
+      },
+      "allergies": [
+        "Penicillin",
+        "Sulfa drugs"
+      ],
+      "existingConditions": [
+        "Mild Hypertension",
+        "Seasonal Asthma"
+      ],
+      "emergencyNotes": "Carries salbutamol inhaler. Prefers Paracetamol over NSAIDs.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:4f8e9102ab38cc729e1",
+        "rfidUid": "04:A3:92:7B:11",
+        "nfcId": "NFC-9921",
+        "qrCode": "QR-PT1024-AK92"
+      },
+      "status": "Waiting",
+      "currentToken": "TKN-101",
+      "lastVisitDate": "2026-08-28",
+      "registeredAt": "2025-11-12",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1025",
+      "name": "Priya Sharma",
+      "age": 28,
+      "dob": "1998-07-22",
+      "gender": "Female",
+      "phone": "+91 98765 43210",
+      "email": "priya.sharma@example.com",
+      "address": "15 Gandhi Road, T. Nagar, Chennai",
+      "bloodGroup": "O+",
+      "emergencyContact": {
+        "name": "Ramesh Sharma",
+        "relationship": "Father",
+        "phone": "+91 98765 43219"
+      },
+      "allergies": [
+        "Aspirin"
+      ],
+      "existingConditions": [
+        "None"
+      ],
+      "emergencyNotes": "No significant past surgical history.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:7b11aa882c490ef182a",
+        "rfidUid": "04:B2:88:1C:44",
+        "nfcId": "NFC-9922",
+        "qrCode": "QR-PT1025-PS98"
+      },
+      "status": "Consultation",
+      "currentToken": "TKN-102",
+      "lastVisitDate": "2026-09-02",
+      "registeredAt": "2026-01-15",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1026",
+      "name": "Rajesh Patel",
+      "age": 52,
+      "dob": "1974-11-03",
+      "gender": "Male",
+      "phone": "+91 94440 55123",
+      "email": "rajesh.patel@example.com",
+      "address": "88 Anna Salai, Guindy, Chennai",
+      "bloodGroup": "A+",
+      "emergencyContact": {
+        "name": "Meena Patel",
+        "relationship": "Spouse",
+        "phone": "+91 94440 55124"
+      },
+      "allergies": [],
+      "existingConditions": [
+        "Type 2 Diabetes",
+        "Hyperlipidemia"
+      ],
+      "emergencyNotes": "Regular Metformin 500mg user.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:9c1234ea55fbc667123",
+        "rfidUid": "04:F7:31:8A:99",
+        "nfcId": "NFC-9923",
+        "qrCode": "QR-PT1026-RP74"
+      },
+      "status": "Pharmacy",
+      "currentToken": "TKN-103",
+      "lastVisitDate": "2026-09-08",
+      "registeredAt": "2025-06-19",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1027",
+      "name": "Ananya Verma",
+      "age": 19,
+      "dob": "2007-03-14",
+      "gender": "Female",
+      "phone": "+91 91234 56789",
+      "email": "ananya.v@example.com",
+      "address": "104 Velachery Main Road, Chennai",
+      "bloodGroup": "AB+",
+      "emergencyContact": {
+        "name": "Sunita Verma",
+        "relationship": "Mother",
+        "phone": "+91 91234 56780"
+      },
+      "allergies": [
+        "Dust",
+        "Cephalosporins"
+      ],
+      "existingConditions": [
+        "Migraine"
+      ],
+      "emergencyNotes": "Sensitive to loud noise during attacks.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:1a2b3c4d5e6f7a8b9c0",
+        "rfidUid": "04:C5:12:90:3A",
+        "nfcId": "NFC-9924",
+        "qrCode": "QR-PT1027-AV07"
+      },
+      "status": "Checked In",
+      "currentToken": "TKN-104",
+      "lastVisitDate": "2026-08-10",
+      "registeredAt": "2026-03-01",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1028",
+      "name": "Vikram Singh",
+      "age": 45,
+      "dob": "1981-09-29",
+      "gender": "Male",
+      "phone": "+91 93812 34567",
+      "email": "vikram.singh@example.com",
+      "address": "27 Adyar Bridge Road, Chennai",
+      "bloodGroup": "O-",
+      "emergencyContact": {
+        "name": "Kiran Singh",
+        "relationship": "Brother",
+        "phone": "+91 93812 34568"
+      },
+      "allergies": [
+        "Iodine contrast"
+      ],
+      "existingConditions": [
+        "Kidney Stones (treated)"
+      ],
+      "emergencyNotes": "Rare O- blood donor profile.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:3d4e5f6a7b8c9d0e1f2",
+        "rfidUid": "04:E9:82:11:7F",
+        "nfcId": "NFC-9925",
+        "qrCode": "QR-PT1028-VS81"
+      },
+      "status": "Medicine Dispensed",
+      "currentToken": "TKN-105",
+      "lastVisitDate": "2026-09-09",
+      "registeredAt": "2025-08-20",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1029",
+      "name": "Lakshmi Narayanan",
+      "age": 63,
+      "dob": "1963-02-18",
+      "gender": "Female",
+      "phone": "+91 94451 98765",
+      "email": "lakshmi.n@example.com",
+      "address": "67 Luz Church Road, Mylapore, Chennai",
+      "bloodGroup": "A-",
+      "emergencyContact": {
+        "name": "Narayanan S.",
+        "relationship": "Spouse",
+        "phone": "+91 94451 98766"
+      },
+      "allergies": [
+        "Latex"
+      ],
+      "existingConditions": [
+        "Osteoarthritis",
+        "Cardiomegaly"
+      ],
+      "emergencyNotes": "Requires wheelchair assistance.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:8899aabbccddeeff001",
+        "rfidUid": "04:1A:4C:8E:55",
+        "nfcId": "NFC-9926",
+        "qrCode": "QR-PT1029-LN63"
+      },
+      "status": "Waiting",
+      "currentToken": "TKN-106",
+      "lastVisitDate": "2026-08-14",
+      "registeredAt": "2024-10-10",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1030",
+      "name": "Mohammed Farooq",
+      "age": 39,
+      "dob": "1987-12-05",
+      "gender": "Male",
+      "phone": "+91 98840 11223",
+      "email": "farooq.m@example.com",
+      "address": "3 Triplicane High Road, Chennai",
+      "bloodGroup": "B-",
+      "emergencyContact": {
+        "name": "Amina Farooq",
+        "relationship": "Spouse",
+        "phone": "+91 98840 11224"
+      },
+      "allergies": [],
+      "existingConditions": [
+        "GERD"
+      ],
+      "emergencyNotes": "Takes Pantoprazole daily.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:7766554433221100aa1",
+        "rfidUid": "04:7B:99:2D:18",
+        "nfcId": "NFC-9927",
+        "qrCode": "QR-PT1030-MF87"
+      },
+      "status": "Completed",
+      "currentToken": "TKN-107",
+      "lastVisitDate": "2026-09-10",
+      "registeredAt": "2025-04-04",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1031",
+      "name": "Sneha Reddy",
+      "age": 31,
+      "dob": "1995-05-19",
+      "gender": "Female",
+      "phone": "+91 97909 33445",
+      "email": "sneha.reddy@example.com",
+      "address": "12 OMR Road, Thoraipakkam, Chennai",
+      "bloodGroup": "AB-",
+      "emergencyContact": {
+        "name": "Karthik Reddy",
+        "relationship": "Spouse",
+        "phone": "+91 97909 33446"
+      },
+      "allergies": [
+        "NSAIDs"
+      ],
+      "existingConditions": [
+        "Hypothyroidism"
+      ],
+      "emergencyNotes": "Eltroxin 50mcg empty stomach.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:5544332211aabbccddee",
+        "rfidUid": "04:3F:8A:6B:01",
+        "nfcId": "NFC-9928",
+        "qrCode": "QR-PT1031-SR95"
+      },
+      "status": "Checked In",
+      "currentToken": "TKN-108",
+      "lastVisitDate": "2026-09-01",
+      "registeredAt": "2026-02-28",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1032",
+      "name": "David Thomas",
+      "age": 58,
+      "dob": "1968-08-11",
+      "gender": "Male",
+      "phone": "+91 98410 77889",
+      "email": "david.thomas@example.com",
+      "address": "9 Santhome High Road, Mylapore, Chennai",
+      "bloodGroup": "O+",
+      "emergencyContact": {
+        "name": "Grace Thomas",
+        "relationship": "Spouse",
+        "phone": "+91 98410 77890"
+      },
+      "allergies": [
+        "Ciprofloxacin"
+      ],
+      "existingConditions": [
+        "Coronary Artery Disease",
+        "Post-Stent (2023)"
+      ],
+      "emergencyNotes": "On blood thinners (Ecosprin + Clopidogrel). Handle trauma cautiously.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:112233445566778899aa",
+        "rfidUid": "04:9C:14:E2:73",
+        "nfcId": "NFC-9929",
+        "qrCode": "QR-PT1032-DT68"
+      },
+      "status": "Consultation",
+      "currentToken": "TKN-109",
+      "lastVisitDate": "2026-09-10",
+      "registeredAt": "2024-05-18",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1033",
+      "name": "Kavitha Balan",
+      "age": 41,
+      "dob": "1985-10-30",
+      "gender": "Female",
+      "phone": "+91 99620 44556",
+      "email": "kavitha.balan@example.com",
+      "address": "54 Sterling Road, Nungambakkam, Chennai",
+      "bloodGroup": "B+",
+      "emergencyContact": {
+        "name": "Balan K.",
+        "relationship": "Spouse",
+        "phone": "+91 99620 44557"
+      },
+      "allergies": [],
+      "existingConditions": [
+        "Anemia"
+      ],
+      "emergencyNotes": "Iron supplements prescribed.",
+      "identifiers": {
+        "faceRegistered": false,
+        "rfidUid": "04:5D:71:09:A6",
+        "nfcId": "NFC-9930",
+        "qrCode": "QR-PT1033-KB85"
+      },
+      "status": "Registered",
+      "lastVisitDate": "2026-07-15",
+      "registeredAt": "2026-07-15",
+      "biometricConsent": false
+    },
+    {
+      "id": "PT-1034",
+      "name": "Siddharth Menon",
+      "age": 24,
+      "dob": "2002-06-12",
+      "gender": "Male",
+      "phone": "+91 98844 99887",
+      "email": "siddharth.m@example.com",
+      "address": "18 Besant Nagar Beach Road, Chennai",
+      "bloodGroup": "A+",
+      "emergencyContact": {
+        "name": "Radha Menon",
+        "relationship": "Mother",
+        "phone": "+91 98844 99888"
+      },
+      "allergies": [
+        "Peanuts"
+      ],
+      "existingConditions": [
+        "Allergic Rhinitis"
+      ],
+      "emergencyNotes": "Carry EpiPen in travel kit.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:00aabb11223344556677",
+        "rfidUid": "04:E1:99:3F:82",
+        "nfcId": "NFC-9931",
+        "qrCode": "QR-PT1034-SM02"
+      },
+      "status": "Waiting",
+      "currentToken": "TKN-110",
+      "lastVisitDate": "2026-08-30",
+      "registeredAt": "2026-04-10",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1035",
+      "name": "Divya Krishnan",
+      "age": 36,
+      "dob": "1990-01-25",
+      "gender": "Female",
+      "phone": "+91 94441 22334",
+      "email": "divya.k@example.com",
+      "address": "77 Kilpauk Garden Road, Chennai",
+      "bloodGroup": "O+",
+      "emergencyContact": {
+        "name": "Gopal Krishnan",
+        "relationship": "Spouse",
+        "phone": "+91 94441 22335"
+      },
+      "allergies": [
+        "Amoxicillin"
+      ],
+      "existingConditions": [
+        "Polycystic Ovary Syndrome"
+      ],
+      "emergencyNotes": "Allergic rash to penicillin derivatives.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:445566778899aabbccdd",
+        "rfidUid": "04:2C:88:41:9E",
+        "nfcId": "NFC-9932",
+        "qrCode": "QR-PT1035-DK90"
+      },
+      "status": "Pharmacy",
+      "currentToken": "TKN-111",
+      "lastVisitDate": "2026-09-10",
+      "registeredAt": "2025-09-14",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1036",
+      "name": "Karthik Raja",
+      "age": 48,
+      "dob": "1978-04-08",
+      "gender": "Male",
+      "phone": "+91 97910 88776",
+      "email": "karthik.raja@example.com",
+      "address": "33 Arcot Road, Kodambakkam, Chennai",
+      "bloodGroup": "B+",
+      "emergencyContact": {
+        "name": "Vani Karthik",
+        "relationship": "Spouse",
+        "phone": "+91 97910 88777"
+      },
+      "allergies": [],
+      "existingConditions": [
+        "Kidney disease stage 1"
+      ],
+      "emergencyNotes": "Monitor creatinine levels.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:a1b2c3d4e5f60718293a",
+        "rfidUid": "04:FA:21:77:3B",
+        "nfcId": "NFC-9933",
+        "qrCode": "QR-PT1036-KR78"
+      },
+      "status": "Waiting",
+      "currentToken": "TKN-112",
+      "lastVisitDate": "2026-09-05",
+      "registeredAt": "2025-01-20",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1037",
+      "name": "Meera Nambiar",
+      "age": 22,
+      "dob": "2004-09-17",
+      "gender": "Female",
+      "phone": "+91 93844 55667",
+      "email": "meera.nambiar@example.com",
+      "address": "61 Harrington Road, Chetpet, Chennai",
+      "bloodGroup": "A+",
+      "emergencyContact": {
+        "name": "Ajit Nambiar",
+        "relationship": "Father",
+        "phone": "+91 93844 55668"
+      },
+      "allergies": [
+        "Sulfa drugs"
+      ],
+      "existingConditions": [
+        "None"
+      ],
+      "emergencyNotes": "College basketball athlete.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:99887766554433221100",
+        "rfidUid": "04:8E:32:5A:CC",
+        "nfcId": "NFC-9934",
+        "qrCode": "QR-PT1037-MN04"
+      },
+      "status": "Checked In",
+      "currentToken": "TKN-113",
+      "lastVisitDate": "2026-09-10",
+      "registeredAt": "2026-05-02",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1038",
+      "name": "Joseph Vijay",
+      "age": 50,
+      "dob": "1976-06-22",
+      "gender": "Male",
+      "phone": "+91 98402 33221",
+      "email": "joseph.v@example.com",
+      "address": "14 Neelankarai East Coast Road, Chennai",
+      "bloodGroup": "O+",
+      "emergencyContact": {
+        "name": "Sangeetha Joseph",
+        "relationship": "Spouse",
+        "phone": "+91 98402 33222"
+      },
+      "allergies": [],
+      "existingConditions": [
+        "Cervical Spondylosis"
+      ],
+      "emergencyNotes": "Ergonomic neck support recommended.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:1029384756abcdef1234",
+        "rfidUid": "04:6B:19:D4:21",
+        "nfcId": "NFC-9935",
+        "qrCode": "QR-PT1038-JV76"
+      },
+      "status": "Medicine Delivered",
+      "currentToken": "TKN-114",
+      "lastVisitDate": "2026-09-09",
+      "registeredAt": "2024-11-29",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1039",
+      "name": "Harini Sundaram",
+      "age": 29,
+      "dob": "1997-08-04",
+      "gender": "Female",
+      "phone": "+91 99400 66778",
+      "email": "harini.s@example.com",
+      "address": "8 TTK Road, Alwarpet, Chennai",
+      "bloodGroup": "AB+",
+      "emergencyContact": {
+        "name": "Sundaram V.",
+        "relationship": "Father",
+        "phone": "+91 99400 66779"
+      },
+      "allergies": [
+        "Ceftriaxone"
+      ],
+      "existingConditions": [
+        "Asthma"
+      ],
+      "emergencyNotes": "High eosinophil count history.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:fabc1234567890abcdef",
+        "rfidUid": "04:D3:55:01:FE",
+        "nfcId": "NFC-9936",
+        "qrCode": "QR-PT1039-HS97"
+      },
+      "status": "Waiting",
+      "currentToken": "TKN-115",
+      "lastVisitDate": "2026-09-10",
+      "registeredAt": "2026-06-11",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1040",
+      "name": "Ravi Shankar",
+      "age": 67,
+      "dob": "1959-10-14",
+      "gender": "Male",
+      "phone": "+91 94443 88990",
+      "email": "ravi.shankar@example.com",
+      "address": "22 Kasturi Rangan Road, Chennai",
+      "bloodGroup": "B-",
+      "emergencyContact": {
+        "name": "Gayathri Ravi",
+        "relationship": "Daughter",
+        "phone": "+91 94443 88991"
+      },
+      "allergies": [
+        "Codeine"
+      ],
+      "existingConditions": [
+        "Hypertension",
+        "Glaucoma"
+      ],
+      "emergencyNotes": "Eye pressure monitored bi-monthly.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:88112233aabbccddeeff",
+        "rfidUid": "04:12:9A:88:4D",
+        "nfcId": "NFC-9937",
+        "qrCode": "QR-PT1040-RS59"
+      },
+      "status": "Completed",
+      "currentToken": "TKN-116",
+      "lastVisitDate": "2026-09-10",
+      "registeredAt": "2023-09-01",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1041",
+      "name": "Deepak Chawla",
+      "age": 33,
+      "dob": "1993-11-20",
+      "gender": "Male",
+      "phone": "+91 98841 00998",
+      "email": "deepak.chawla@example.com",
+      "address": "90 Nungambakkam High Road, Chennai",
+      "bloodGroup": "A+",
+      "emergencyContact": {
+        "name": "Simran Chawla",
+        "relationship": "Spouse",
+        "phone": "+91 98841 00999"
+      },
+      "allergies": [],
+      "existingConditions": [
+        "None"
+      ],
+      "emergencyNotes": "Routine checkup.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:55667788990011223344",
+        "rfidUid": "04:77:E4:9C:12",
+        "nfcId": "NFC-9938",
+        "qrCode": "QR-PT1041-DC93"
+      },
+      "status": "Checked In",
+      "currentToken": "TKN-117",
+      "lastVisitDate": "2026-09-10",
+      "registeredAt": "2026-08-01",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1042",
+      "name": "Geetha Swaminathan",
+      "age": 55,
+      "dob": "1971-03-27",
+      "gender": "Female",
+      "phone": "+91 94452 77665",
+      "email": "geetha.s@example.com",
+      "address": "4 Bishop Wallers Avenue, Mylapore, Chennai",
+      "bloodGroup": "O+",
+      "emergencyContact": {
+        "name": "Swaminathan T.",
+        "relationship": "Spouse",
+        "phone": "+91 94452 77666"
+      },
+      "allergies": [
+        "Morphine"
+      ],
+      "existingConditions": [
+        "Type 2 Diabetes",
+        "Hypothyroid"
+      ],
+      "emergencyNotes": "Fasting glucose tracked monthly.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:2233445566778899aabb",
+        "rfidUid": "04:AB:12:CD:34",
+        "nfcId": "NFC-9939",
+        "qrCode": "QR-PT1042-GS71"
+      },
+      "status": "Waiting",
+      "currentToken": "TKN-118",
+      "lastVisitDate": "2026-09-08",
+      "registeredAt": "2025-05-15",
+      "biometricConsent": true
+    },
+    {
+      "id": "PT-1043",
+      "name": "Suresh Babu",
+      "age": 42,
+      "dob": "1984-12-31",
+      "gender": "Male",
+      "phone": "+91 98403 44556",
+      "email": "suresh.babu@example.com",
+      "address": "10 Haddows Road, Nungambakkam, Chennai",
+      "bloodGroup": "B+",
+      "emergencyContact": {
+        "name": "Mallika Babu",
+        "relationship": "Spouse",
+        "phone": "+91 98403 44557"
+      },
+      "allergies": [
+        "Ibuprofen"
+      ],
+      "existingConditions": [
+        "Acid Peptic Disease"
+      ],
+      "emergencyNotes": "Avoid all NSAIDs.",
+      "identifiers": {
+        "faceRegistered": true,
+        "faceHash": "SHA256:3344556677889900aabb",
+        "rfidUid": "04:EF:56:GH:78",
+        "nfcId": "NFC-9940",
+        "qrCode": "QR-PT1043-SB84"
+      },
+      "status": "Waiting",
+      "currentToken": "TKN-119",
+      "lastVisitDate": "2026-09-10",
+      "registeredAt": "2025-07-22",
+      "biometricConsent": true
+    }
+  ],
+  "staff": [
+    {
+      "id": "DOC-01",
+      "name": "Dr. Sundar Kumar MD",
+      "role": "Doctor",
+      "department": "Cardiology & General Medicine",
+      "rfidUid": "STF:A1:01:99:FF",
+      "nfcId": "STF-NFC-01",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "08:00 AM",
+      "workingHoursToday": 6.2,
+      "phone": "+91 98400 11111"
+    },
+    {
+      "id": "DOC-02",
+      "name": "Dr. Radhika Iyer MD",
+      "role": "Doctor",
+      "department": "Emergency & Trauma Care",
+      "rfidUid": "STF:A1:02:88:EE",
+      "nfcId": "STF-NFC-02",
+      "faceRegistered": true,
+      "status": "On Duty",
+      "checkInTime": "07:30 AM",
+      "workingHoursToday": 6.7,
+      "phone": "+91 98400 22222"
+    },
+    {
+      "id": "DOC-03",
+      "name": "Dr. Vignesh Ramesh MS",
+      "role": "Doctor",
+      "department": "Internal Medicine",
+      "rfidUid": "STF:A1:03:77:DD",
+      "nfcId": "STF-NFC-03",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "08:15 AM",
+      "workingHoursToday": 5.9,
+      "phone": "+91 98400 33333"
+    },
+    {
+      "id": "DOC-04",
+      "name": "Dr. Kavita Nair MD",
+      "role": "Doctor",
+      "department": "Pediatrics",
+      "rfidUid": "STF:A1:04:66:CC",
+      "nfcId": "STF-NFC-04",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "08:30 AM",
+      "workingHoursToday": 5.5,
+      "phone": "+91 98400 44444"
+    },
+    {
+      "id": "DOC-05",
+      "name": "Dr. Amit Shah DNB",
+      "role": "Doctor",
+      "department": "General Surgery",
+      "rfidUid": "STF:A1:05:55:BB",
+      "nfcId": "STF-NFC-05",
+      "faceRegistered": true,
+      "status": "Late",
+      "checkInTime": "09:20 AM",
+      "workingHoursToday": 4.8,
+      "phone": "+91 98400 55555"
+    },
+    {
+      "id": "NUR-01",
+      "name": "Deepa V. (Head Nurse)",
+      "role": "Nurse",
+      "department": "Inpatient Ward 1 & 2",
+      "rfidUid": "STF:B2:01:AA:11",
+      "nfcId": "STF-NFC-06",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "07:00 AM",
+      "workingHoursToday": 7.1,
+      "phone": "+91 98401 11223"
+    },
+    {
+      "id": "NUR-02",
+      "name": "Mohan Kumar RN",
+      "role": "Nurse",
+      "department": "Emergency & Triage",
+      "rfidUid": "STF:B2:02:BB:22",
+      "nfcId": "STF-NFC-07",
+      "faceRegistered": true,
+      "status": "On Duty",
+      "checkInTime": "07:00 AM",
+      "workingHoursToday": 7.1,
+      "phone": "+91 98401 22334"
+    },
+    {
+      "id": "NUR-03",
+      "name": "Shalini Murugan RN",
+      "role": "Nurse",
+      "department": "Vitals & Assessment Station",
+      "rfidUid": "STF:B2:03:CC:33",
+      "nfcId": "STF-NFC-08",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "07:45 AM",
+      "workingHoursToday": 6.4,
+      "phone": "+91 98401 33445"
+    },
+    {
+      "id": "NUR-04",
+      "name": "Alex D’Souza RN",
+      "role": "Nurse",
+      "department": "ICU Ward 3",
+      "rfidUid": "STF:B2:04:DD:44",
+      "nfcId": "STF-NFC-09",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "07:15 AM",
+      "workingHoursToday": 6.9,
+      "phone": "+91 98401 44556"
+    },
+    {
+      "id": "NUR-05",
+      "name": "Mary Sharon RN",
+      "role": "Nurse",
+      "department": "Outpatient Clinic",
+      "rfidUid": "STF:B2:05:EE:55",
+      "nfcId": "STF-NFC-10",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "08:00 AM",
+      "workingHoursToday": 6.1,
+      "phone": "+91 98401 55667"
+    },
+    {
+      "id": "PHM-01",
+      "name": "Pharm. R. Lakshmi B.Pharm",
+      "role": "Pharmacist",
+      "department": "Central Hospital Pharmacy",
+      "rfidUid": "STF:C3:01:FF:66",
+      "nfcId": "STF-NFC-11",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "07:30 AM",
+      "workingHoursToday": 6.6,
+      "phone": "+91 98402 11223"
+    },
+    {
+      "id": "PHM-02",
+      "name": "Pharm. J. Deepak M.Pharm",
+      "role": "Pharmacist",
+      "department": "Smart Vending Automation Desk",
+      "rfidUid": "STF:C3:02:AA:77",
+      "nfcId": "STF-NFC-12",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "08:00 AM",
+      "workingHoursToday": 6.2,
+      "phone": "+91 98402 22334"
+    },
+    {
+      "id": "PHM-03",
+      "name": "Pharm. S. Praveen",
+      "role": "Pharmacist",
+      "department": "Medicine Inventory & Logistics",
+      "rfidUid": "STF:C3:03:BB:88",
+      "nfcId": "STF-NFC-13",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "08:15 AM",
+      "workingHoursToday": 5.9,
+      "phone": "+91 98402 33445"
+    },
+    {
+      "id": "TECH-01",
+      "name": "K. Balaji (IoT Specialist)",
+      "role": "Technician",
+      "department": "Biomedical & IoT Robotics",
+      "rfidUid": "STF:D4:01:CC:99",
+      "nfcId": "STF-NFC-14",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "08:00 AM",
+      "workingHoursToday": 6.2,
+      "phone": "+91 98403 11223"
+    },
+    {
+      "id": "ADM-01",
+      "name": "Dr. E. Senthil Nathan (Director)",
+      "role": "Admin",
+      "department": "Hospital Administration & Safety",
+      "rfidUid": "STF:E5:01:DD:00",
+      "nfcId": "STF-NFC-15",
+      "faceRegistered": true,
+      "status": "Present",
+      "checkInTime": "08:30 AM",
+      "workingHoursToday": 5.7,
+      "phone": "+91 98404 11223"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "MED-01",
+      "name": "Paracetamol 500mg",
+      "category": "Analgesic / Antipyretic",
+      "batchNumber": "B-PCM-26A",
+      "supplier": "Apex Pharma Ltd",
+      "mfgDate": "2026-01-10",
+      "expiryDate": "2027-12-31",
+      "quantity": 34,
+      "minStock": 25,
+      "unit": "Tablets",
+      "vendingSlot": 1,
+      "vendingMachineId": "VM-01",
+      "dailyUsageAvg": 12,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-02",
+      "name": "Cetirizine 10mg",
+      "category": "Antihistamine",
+      "batchNumber": "B-CTZ-26B",
+      "supplier": "SunLife Pharma",
+      "mfgDate": "2026-02-15",
+      "expiryDate": "2027-10-31",
+      "quantity": 48,
+      "minStock": 20,
+      "unit": "Tablets",
+      "vendingSlot": 2,
+      "vendingMachineId": "VM-01",
+      "dailyUsageAvg": 6,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-03",
+      "name": "Oral Rehydration Salts (ORS)",
+      "category": "Electrolyte Replenisher",
+      "batchNumber": "B-ORS-25C",
+      "supplier": "Cipla Healthcare",
+      "mfgDate": "2025-11-01",
+      "expiryDate": "2027-05-31",
+      "quantity": 60,
+      "minStock": 30,
+      "unit": "Sachets",
+      "vendingSlot": 3,
+      "vendingMachineId": "VM-01",
+      "dailyUsageAvg": 14,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-04",
+      "name": "Amoxicillin 500mg",
+      "category": "Antibiotic (Penicillin)",
+      "batchNumber": "B-AMX-26D",
+      "supplier": "GlaxoSmithKline",
+      "mfgDate": "2026-03-01",
+      "expiryDate": "2028-02-28",
+      "quantity": 28,
+      "minStock": 20,
+      "unit": "Capsules",
+      "vendingSlot": 4,
+      "vendingMachineId": "VM-01",
+      "dailyUsageAvg": 8,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-05",
+      "name": "Ibuprofen 400mg",
+      "category": "NSAID / Anti-inflammatory",
+      "batchNumber": "B-IBU-26E",
+      "supplier": "Dr. Reddy’s Labs",
+      "mfgDate": "2026-01-20",
+      "expiryDate": "2027-09-30",
+      "quantity": 22,
+      "minStock": 20,
+      "unit": "Tablets",
+      "vendingSlot": 5,
+      "vendingMachineId": "VM-01",
+      "dailyUsageAvg": 7,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-06",
+      "name": "Pantoprazole 40mg",
+      "category": "Proton Pump Inhibitor (GERD)",
+      "batchNumber": "B-PAN-26F",
+      "supplier": "Torrent Pharma",
+      "mfgDate": "2026-02-10",
+      "expiryDate": "2028-01-31",
+      "quantity": 52,
+      "minStock": 25,
+      "unit": "Tablets",
+      "vendingSlot": 6,
+      "vendingMachineId": "VM-01",
+      "dailyUsageAvg": 11,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-07",
+      "name": "Azithromycin 500mg",
+      "category": "Macrolide Antibiotic",
+      "batchNumber": "B-AZI-25G",
+      "supplier": "Lupin Labs",
+      "mfgDate": "2025-10-15",
+      "expiryDate": "2027-08-31",
+      "quantity": 16,
+      "minStock": 15,
+      "unit": "Tablets",
+      "vendingSlot": 1,
+      "vendingMachineId": "VM-02",
+      "dailyUsageAvg": 5,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-08",
+      "name": "Metformin 500mg",
+      "category": "Antidiabetic (Biguanide)",
+      "batchNumber": "B-MET-26H",
+      "supplier": "USV Private Ltd",
+      "mfgDate": "2026-01-05",
+      "expiryDate": "2028-06-30",
+      "quantity": 85,
+      "minStock": 30,
+      "unit": "Tablets",
+      "vendingSlot": 2,
+      "vendingMachineId": "VM-02",
+      "dailyUsageAvg": 18,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-09",
+      "name": "Amlodipine 5mg",
+      "category": "Calcium Channel Blocker (BP)",
+      "batchNumber": "B-AML-26I",
+      "supplier": "Pfizer India",
+      "mfgDate": "2026-02-28",
+      "expiryDate": "2028-04-30",
+      "quantity": 42,
+      "minStock": 25,
+      "unit": "Tablets",
+      "vendingSlot": 3,
+      "vendingMachineId": "VM-02",
+      "dailyUsageAvg": 9,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-10",
+      "name": "Atorvastatin 10mg",
+      "category": "Lipid-lowering Statin",
+      "batchNumber": "B-ATV-25J",
+      "supplier": "Biocon India",
+      "mfgDate": "2025-12-10",
+      "expiryDate": "2027-11-30",
+      "quantity": 38,
+      "minStock": 20,
+      "unit": "Tablets",
+      "vendingSlot": 4,
+      "vendingMachineId": "VM-02",
+      "dailyUsageAvg": 8,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-11",
+      "name": "Salbutamol Inhaler 100mcg",
+      "category": "Bronchodilator (Asthma)",
+      "batchNumber": "B-SAL-26K",
+      "supplier": "Cipla Healthcare",
+      "mfgDate": "2026-03-05",
+      "expiryDate": "2028-03-31",
+      "quantity": 14,
+      "minStock": 10,
+      "unit": "Canisters",
+      "vendingSlot": 5,
+      "vendingMachineId": "VM-02",
+      "dailyUsageAvg": 3,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-12",
+      "name": "Cough Syrup (Guaifenesin)",
+      "category": "Expectorant",
+      "batchNumber": "B-CGH-25L",
+      "supplier": "Dabur Pharma",
+      "mfgDate": "2025-08-10",
+      "expiryDate": "2026-09-25",
+      "quantity": 8,
+      "minStock": 15,
+      "unit": "Bottles (100ml)",
+      "vendingSlot": 6,
+      "vendingMachineId": "VM-02",
+      "dailyUsageAvg": 4,
+      "isExpired": false,
+      "isExpiringSoon": true
+    },
+    {
+      "id": "MED-13",
+      "name": "Ciprofloxacin 500mg",
+      "category": "Fluoroquinolone Antibiotic",
+      "batchNumber": "B-CIP-24M",
+      "supplier": "Ranbaxy Labs",
+      "mfgDate": "2024-06-01",
+      "expiryDate": "2026-08-31",
+      "quantity": 12,
+      "minStock": 15,
+      "unit": "Tablets",
+      "dailyUsageAvg": 0,
+      "isExpired": true,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-14",
+      "name": "Telmisartan 40mg",
+      "category": "ARB (Antihypertensive)",
+      "batchNumber": "B-TEL-26N",
+      "supplier": "Glenmark Pharma",
+      "mfgDate": "2026-02-01",
+      "expiryDate": "2028-05-31",
+      "quantity": 45,
+      "minStock": 25,
+      "unit": "Tablets",
+      "vendingSlot": 1,
+      "vendingMachineId": "VM-03",
+      "dailyUsageAvg": 10,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-15",
+      "name": "Ecosprin 75mg",
+      "category": "Antiplatelet (Aspirin Low Dose)",
+      "batchNumber": "B-ECO-26P",
+      "supplier": "USV Private Ltd",
+      "mfgDate": "2026-01-18",
+      "expiryDate": "2028-07-31",
+      "quantity": 64,
+      "minStock": 30,
+      "unit": "Tablets",
+      "vendingSlot": 2,
+      "vendingMachineId": "VM-03",
+      "dailyUsageAvg": 15,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-16",
+      "name": "Montelukast 10mg",
+      "category": "Leukotriene Receptor Antagonist",
+      "batchNumber": "B-MON-26Q",
+      "supplier": "Sun Pharma",
+      "mfgDate": "2026-03-12",
+      "expiryDate": "2028-02-28",
+      "quantity": 35,
+      "minStock": 20,
+      "unit": "Tablets",
+      "vendingSlot": 3,
+      "vendingMachineId": "VM-03",
+      "dailyUsageAvg": 7,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-17",
+      "name": "Dolo 650mg",
+      "category": "Antipyretic / Analgesic",
+      "batchNumber": "B-DLO-26R",
+      "supplier": "Micro Labs Ltd",
+      "mfgDate": "2026-02-20",
+      "expiryDate": "2028-01-31",
+      "quantity": 90,
+      "minStock": 40,
+      "unit": "Tablets",
+      "vendingSlot": 4,
+      "vendingMachineId": "VM-03",
+      "dailyUsageAvg": 22,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-18",
+      "name": "Levocetirizine 5mg",
+      "category": "Second-gen Antihistamine",
+      "batchNumber": "B-LEV-26S",
+      "supplier": "Mankind Pharma",
+      "mfgDate": "2026-01-28",
+      "expiryDate": "2027-12-31",
+      "quantity": 40,
+      "minStock": 20,
+      "unit": "Tablets",
+      "vendingSlot": 5,
+      "vendingMachineId": "VM-03",
+      "dailyUsageAvg": 8,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-19",
+      "name": "Ranitidine 150mg",
+      "category": "H2 Blocker (Antacid)",
+      "batchNumber": "B-RAN-24T",
+      "supplier": "Cadila Healthcare",
+      "mfgDate": "2024-05-15",
+      "expiryDate": "2026-07-31",
+      "quantity": 8,
+      "minStock": 20,
+      "unit": "Tablets",
+      "dailyUsageAvg": 0,
+      "isExpired": true,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-20",
+      "name": "Insulin Glargine 100IU/ml",
+      "category": "Long-acting Insulin",
+      "batchNumber": "B-INS-26U",
+      "supplier": "Sanofi India",
+      "mfgDate": "2026-02-10",
+      "expiryDate": "2027-08-31",
+      "quantity": 18,
+      "minStock": 15,
+      "unit": "Vials (10ml)",
+      "vendingSlot": 6,
+      "vendingMachineId": "VM-03",
+      "dailyUsageAvg": 4,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-21",
+      "name": "Ondansetron 4mg",
+      "category": "Antiemetic (Nausea)",
+      "batchNumber": "B-OND-26V",
+      "supplier": "Alkem Labs",
+      "mfgDate": "2026-03-01",
+      "expiryDate": "2028-03-31",
+      "quantity": 32,
+      "minStock": 20,
+      "unit": "Tablets",
+      "dailyUsageAvg": 6,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-22",
+      "name": "Betadine Ointment 10%",
+      "category": "Topical Antiseptic",
+      "batchNumber": "B-BET-26W",
+      "supplier": "Win-Medicare",
+      "mfgDate": "2026-01-15",
+      "expiryDate": "2028-01-31",
+      "quantity": 25,
+      "minStock": 15,
+      "unit": "Tubes (20g)",
+      "dailyUsageAvg": 5,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-23",
+      "name": "Tramadol 50mg",
+      "category": "Opioid Analgesic (Schedule H1)",
+      "batchNumber": "B-TRA-26X",
+      "supplier": "Neon Labs",
+      "mfgDate": "2026-02-05",
+      "expiryDate": "2028-02-28",
+      "quantity": 15,
+      "minStock": 10,
+      "unit": "Capsules",
+      "dailyUsageAvg": 2,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-24",
+      "name": "Vitamin D3 60k IU",
+      "category": "Nutritional Supplement",
+      "batchNumber": "B-VIT-26Y",
+      "supplier": "Abbott Healthcare",
+      "mfgDate": "2026-01-30",
+      "expiryDate": "2028-06-30",
+      "quantity": 50,
+      "minStock": 25,
+      "unit": "Capsules",
+      "dailyUsageAvg": 8,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-25",
+      "name": "Metronidazole 400mg",
+      "category": "Antiprotozoal / Antibacterial",
+      "batchNumber": "B-MET-26Z",
+      "supplier": "J.B. Chemicals",
+      "mfgDate": "2026-02-12",
+      "expiryDate": "2028-02-28",
+      "quantity": 26,
+      "minStock": 20,
+      "unit": "Tablets",
+      "dailyUsageAvg": 5,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-26",
+      "name": "Clopidogrel 75mg",
+      "category": "Antiplatelet",
+      "batchNumber": "B-CLO-26AA",
+      "supplier": "Sun Pharma",
+      "mfgDate": "2026-01-08",
+      "expiryDate": "2027-12-31",
+      "quantity": 33,
+      "minStock": 20,
+      "unit": "Tablets",
+      "dailyUsageAvg": 6,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-27",
+      "name": "Hydrochlorothiazide 12.5mg",
+      "category": "Thiazide Diuretic",
+      "batchNumber": "B-HCT-25AB",
+      "supplier": "Zydus Cadila",
+      "mfgDate": "2025-11-20",
+      "expiryDate": "2027-10-31",
+      "quantity": 29,
+      "minStock": 20,
+      "unit": "Tablets",
+      "dailyUsageAvg": 5,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-28",
+      "name": "Hydrocortisone Cream 1%",
+      "category": "Topical Corticosteroid",
+      "batchNumber": "B-HYD-25AC",
+      "supplier": "Glenmark",
+      "mfgDate": "2025-09-10",
+      "expiryDate": "2026-09-30",
+      "quantity": 6,
+      "minStock": 12,
+      "unit": "Tubes (15g)",
+      "dailyUsageAvg": 2,
+      "isExpired": false,
+      "isExpiringSoon": true
+    },
+    {
+      "id": "MED-29",
+      "name": "Diazepam 5mg",
+      "category": "Sedative / Anxiolytic (Schedule X)",
+      "batchNumber": "B-DIA-26AD",
+      "supplier": "Intas Pharma",
+      "mfgDate": "2026-02-22",
+      "expiryDate": "2028-02-28",
+      "quantity": 20,
+      "minStock": 10,
+      "unit": "Tablets",
+      "dailyUsageAvg": 2,
+      "isExpired": false,
+      "isExpiringSoon": false
+    },
+    {
+      "id": "MED-30",
+      "name": "Thyroxine Sodium 50mcg",
+      "category": "Thyroid Hormone Replacer",
+      "batchNumber": "B-THY-26AE",
+      "supplier": "Abbott Healthcare",
+      "mfgDate": "2026-01-25",
+      "expiryDate": "2028-04-30",
+      "quantity": 70,
+      "minStock": 30,
+      "unit": "Tablets",
+      "dailyUsageAvg": 14,
+      "isExpired": false,
+      "isExpiringSoon": false
+    }
+  ],
+  "vendingMachines": [
+    {
+      "id": "VM-01",
+      "name": "Emergency & Triage Vending Hub",
+      "location": "Ground Floor, Emergency Corridor A",
+      "status": "Online",
+      "doorLocked": true,
+      "irBeamActive": true,
+      "hx711Calibration": 1,
+      "lastDispenseTime": "10 mins ago",
+      "slots": [
+        {
+          "slotNumber": 1,
+          "medicineId": "MED-01",
+          "medicineName": "Paracetamol 500mg",
+          "currentStock": 34,
+          "minStock": 25,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 5.2,
+          "expiryDate": "2027-12-31",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 2,
+          "medicineId": "MED-02",
+          "medicineName": "Cetirizine 10mg",
+          "currentStock": 48,
+          "minStock": 20,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 3.1,
+          "expiryDate": "2027-10-31",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 3,
+          "medicineId": "MED-03",
+          "medicineName": "ORS Sachet",
+          "currentStock": 60,
+          "minStock": 30,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 21.5,
+          "expiryDate": "2027-05-31",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 4,
+          "medicineId": "MED-04",
+          "medicineName": "Amoxicillin 500mg",
+          "currentStock": 28,
+          "minStock": 20,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 6.8,
+          "expiryDate": "2028-02-28",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 5,
+          "medicineId": "MED-05",
+          "medicineName": "Ibuprofen 400mg",
+          "currentStock": 22,
+          "minStock": 20,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 5.4,
+          "expiryDate": "2027-09-30",
+          "health": "LOW_STOCK"
+        },
+        {
+          "slotNumber": 6,
+          "medicineId": "MED-06",
+          "medicineName": "Pantoprazole 40mg",
+          "currentStock": 52,
+          "minStock": 25,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 4.2,
+          "expiryDate": "2028-01-31",
+          "health": "HEALTHY"
+        }
+      ]
+    },
+    {
+      "id": "VM-02",
+      "name": "Inpatient Ward B Station",
+      "location": "1st Floor, Ward 1 & 2 Junction",
+      "status": "Online",
+      "doorLocked": true,
+      "irBeamActive": true,
+      "hx711Calibration": 1,
+      "lastDispenseTime": "24 mins ago",
+      "slots": [
+        {
+          "slotNumber": 1,
+          "medicineId": "MED-07",
+          "medicineName": "Azithromycin 500mg",
+          "currentStock": 16,
+          "minStock": 15,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 7.2,
+          "expiryDate": "2027-08-31",
+          "health": "LOW_STOCK"
+        },
+        {
+          "slotNumber": 2,
+          "medicineId": "MED-08",
+          "medicineName": "Metformin 500mg",
+          "currentStock": 85,
+          "minStock": 30,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 6.1,
+          "expiryDate": "2028-06-30",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 3,
+          "medicineId": "MED-09",
+          "medicineName": "Amlodipine 5mg",
+          "currentStock": 42,
+          "minStock": 25,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 2.8,
+          "expiryDate": "2028-04-30",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 4,
+          "medicineId": "MED-10",
+          "medicineName": "Atorvastatin 10mg",
+          "currentStock": 38,
+          "minStock": 20,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 4.5,
+          "expiryDate": "2027-11-30",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 5,
+          "medicineId": "MED-11",
+          "medicineName": "Salbutamol Inhaler",
+          "currentStock": 14,
+          "minStock": 10,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 35,
+          "expiryDate": "2028-03-31",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 6,
+          "medicineId": "MED-12",
+          "medicineName": "Cough Syrup",
+          "currentStock": 8,
+          "minStock": 15,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 110,
+          "expiryDate": "2026-09-25",
+          "health": "WARNING"
+        }
+      ]
+    },
+    {
+      "id": "VM-03",
+      "name": "Outpatient Clinic Dispenser",
+      "location": "2nd Floor, Specialty Consultations",
+      "status": "Online",
+      "doorLocked": true,
+      "irBeamActive": true,
+      "hx711Calibration": 1,
+      "lastDispenseTime": "45 mins ago",
+      "slots": [
+        {
+          "slotNumber": 1,
+          "medicineId": "MED-14",
+          "medicineName": "Telmisartan 40mg",
+          "currentStock": 45,
+          "minStock": 25,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 4.8,
+          "expiryDate": "2028-05-31",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 2,
+          "medicineId": "MED-15",
+          "medicineName": "Ecosprin 75mg",
+          "currentStock": 64,
+          "minStock": 30,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 3.2,
+          "expiryDate": "2028-07-31",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 3,
+          "medicineId": "MED-16",
+          "medicineName": "Montelukast 10mg",
+          "currentStock": 35,
+          "minStock": 20,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 3.9,
+          "expiryDate": "2028-02-28",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 4,
+          "medicineId": "MED-17",
+          "medicineName": "Dolo 650mg",
+          "currentStock": 90,
+          "minStock": 40,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 6.5,
+          "expiryDate": "2028-01-31",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 5,
+          "medicineId": "MED-18",
+          "medicineName": "Levocetirizine 5mg",
+          "currentStock": 40,
+          "minStock": 20,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 2.9,
+          "expiryDate": "2027-12-31",
+          "health": "HEALTHY"
+        },
+        {
+          "slotNumber": 6,
+          "medicineId": "MED-20",
+          "medicineName": "Insulin Glargine",
+          "currentStock": 18,
+          "minStock": 15,
+          "motorStatus": "IDLE",
+          "sensorStatus": "CLEAR",
+          "loadCellGrams": 22,
+          "expiryDate": "2027-08-31",
+          "health": "HEALTHY"
+        }
+      ]
+    }
+  ],
+  "robots": [
+    {
+      "id": "RB-01",
+      "name": "AtomiX Rover Apollo",
+      "batteryPercent": 88,
+      "status": "Idle",
+      "currentLocation": "Central Pharmacy Bay (START)",
+      "currentCheckpointIndex": 0,
+      "targetWard": "Ward 2",
+      "speedKmh": 2.4,
+      "compartmentLocked": true,
+      "lineSensorActive": true
+    },
+    {
+      "id": "RB-02",
+      "name": "AtomiX Rover Hermes",
+      "batteryPercent": 94,
+      "status": "En Route",
+      "currentLocation": "Corridor B (RFID-02)",
+      "currentCheckpointIndex": 2,
+      "targetWard": "Ward 1",
+      "speedKmh": 2.8,
+      "compartmentLocked": true,
+      "lineSensorActive": true,
+      "currentMission": {
+        "id": "MSN-4089",
+        "prescriptionId": "RX-2038",
+        "patientId": "PT-1028",
+        "patientName": "Vikram Singh",
+        "ward": "Ward 1 - Bed 04",
+        "priority": "Normal",
+        "status": "En Route",
+        "dispatchedAt": "09:35 AM",
+        "medicineSummary": "Amoxicillin 500mg x 6",
+        "authorizedRecipientUid": "04:E9:82:11:7F"
+      }
+    },
+    {
+      "id": "RB-03",
+      "name": "AtomiX Rover Artemis",
+      "batteryPercent": 62,
+      "status": "Charging",
+      "currentLocation": "Docking Station 3",
+      "currentCheckpointIndex": 0,
+      "targetWard": "Standby",
+      "speedKmh": 0,
+      "compartmentLocked": true,
+      "lineSensorActive": false
+    }
+  ],
+  "iotDevices": [
+    {
+      "id": "ESP32-GATE-01",
+      "name": "Main Gate Biometric Terminal",
+      "type": "ESP32 Entry Terminal",
+      "ipAddress": "192.168.1.101",
+      "firmware": "v2.4.1-atomix",
+      "lastSeenSecondsAgo": 2,
+      "status": "Online",
+      "signalDbm": -54,
+      "location": "Hospital Main Entrance"
+    },
+    {
+      "id": "RFID-UHF-01",
+      "name": "Triage RFID Scanner",
+      "type": "RFID Reader",
+      "ipAddress": "192.168.1.102",
+      "firmware": "v1.8.0-rc522",
+      "lastSeenSecondsAgo": 5,
+      "status": "Online",
+      "signalDbm": -61,
+      "location": "Triage Check-in Counter"
+    },
+    {
+      "id": "NFC-DESK-01",
+      "name": "Pharmacy NFC Pad",
+      "type": "NFC Reader",
+      "ipAddress": "192.168.1.103",
+      "firmware": "v1.2.4-pn532",
+      "lastSeenSecondsAgo": 8,
+      "status": "Online",
+      "signalDbm": -58,
+      "location": "Pharmacy Counter 1"
+    },
+    {
+      "id": "VM-CTRL-01",
+      "name": "ESP32 VM-01 Main Controller",
+      "type": "Vending Controller",
+      "ipAddress": "192.168.1.105",
+      "firmware": "v3.1.0-servo-ir",
+      "lastSeenSecondsAgo": 3,
+      "status": "Online",
+      "signalDbm": -50,
+      "location": "Emergency Corridor A"
+    },
+    {
+      "id": "ROBOT-ESP32-01",
+      "name": "RB-01 Apollo Line Tracker",
+      "type": "Robot Controller",
+      "ipAddress": "192.168.1.110",
+      "firmware": "v2.9.2-pid-line",
+      "lastSeenSecondsAgo": 1,
+      "status": "Online",
+      "signalDbm": -63,
+      "batteryPercent": 88,
+      "location": "Pharmacy Bay"
+    },
+    {
+      "id": "CAM-ENTRANCE-01",
+      "name": "AI Face Cam Entrance Node",
+      "type": "AI Camera Node",
+      "ipAddress": "192.168.1.120",
+      "firmware": "v4.0.1-edge-ai",
+      "lastSeenSecondsAgo": 4,
+      "status": "Online",
+      "signalDbm": -48,
+      "location": "Entrance Gate 1"
+    },
+    {
+      "id": "CAM-PHARM-01",
+      "name": "Pharmacy Security Node",
+      "type": "AI Camera Node",
+      "ipAddress": "192.168.1.121",
+      "firmware": "v4.0.1-edge-ai",
+      "lastSeenSecondsAgo": 6,
+      "status": "Online",
+      "signalDbm": -52,
+      "location": "Central Pharmacy"
+    },
+    {
+      "id": "SENS-VITALS-01",
+      "name": "IoT Vitals Sensor Hub (MAX30102 + MLX90614)",
+      "type": "Vitals Sensor Hub",
+      "ipAddress": "192.168.1.130",
+      "firmware": "v2.1.0-sensor",
+      "lastSeenSecondsAgo": 7,
+      "status": "Online",
+      "signalDbm": -59,
+      "location": "Nurse Triage Station A"
+    },
+    {
+      "id": "ESP32-BIO-01",
+      "name": "ICCU Biometric Gate & Attendance (R307)",
+      "type": "Biometric R307 Gate",
+      "ipAddress": "192.168.1.140",
+      "firmware": "v3.5.2-r307-esp32",
+      "lastSeenSecondsAgo": 2,
+      "status": "Online",
+      "signalDbm": -51,
+      "location": "Main Entrance & ICCU Air-Lock"
+    },
+    {
+      "id": "ESP32-BIO-02",
+      "name": "Emergency Fast-Track Biometric Node",
+      "type": "Biometric R307 Gate",
+      "ipAddress": "192.168.1.141",
+      "firmware": "v3.5.2-r307-esp32",
+      "lastSeenSecondsAgo": 3,
+      "status": "Online",
+      "signalDbm": -49,
+      "location": "Emergency Trauma Fast-Track"
+    }
+  ],
+  "visits": [
+    {
+      "id": "VST-8891",
+      "patientId": "PT-1024",
+      "patientName": "Arun Kumar",
+      "tokenNumber": "TKN-101",
+      "checkInTime": "09:12 AM",
+      "method": "Face + RFID",
+      "status": "Waiting",
+      "priority": "Normal",
+      "doctorId": "DOC-01",
+      "doctorName": "Dr. Sundar Kumar MD",
+      "vitals": {
+        "temperatureC": 37.1,
+        "heartRateBpm": 76,
+        "spo2Percent": 98,
+        "bloodPressureSystolic": 122,
+        "bloodPressureDiastolic": 82,
+        "respiratoryRate": 16,
+        "weightKg": 68.5,
+        "recordedAt": "09:16 AM",
+        "isAbnormal": false,
+        "notes": "Vitals within normal limits. Reports mild body ache and headache since yesterday."
+      }
+    },
+    {
+      "id": "VST-8892",
+      "patientId": "PT-1025",
+      "patientName": "Priya Sharma",
+      "tokenNumber": "TKN-102",
+      "checkInTime": "09:18 AM",
+      "method": "Face",
+      "status": "Consultation",
+      "priority": "Normal",
+      "doctorId": "DOC-03",
+      "doctorName": "Dr. Vignesh Ramesh MS",
+      "vitals": {
+        "temperatureC": 38.3,
+        "heartRateBpm": 88,
+        "spo2Percent": 97,
+        "bloodPressureSystolic": 118,
+        "bloodPressureDiastolic": 76,
+        "respiratoryRate": 18,
+        "weightKg": 54,
+        "recordedAt": "09:22 AM",
+        "isAbnormal": true,
+        "notes": "Elevated temperature (fever). Sore throat and rhinorrhea."
+      },
+      "consultation": {
+        "id": "CNS-501",
+        "visitId": "VST-8892",
+        "patientId": "PT-1025",
+        "doctorId": "DOC-03",
+        "doctorName": "Dr. Vignesh Ramesh MS",
+        "chiefComplaint": "Acute pharyngitis & high fever for 2 days",
+        "symptoms": [
+          "Sore throat",
+          "Fever 101F",
+          "Headache",
+          "Mild dry cough"
+        ],
+        "observations": "Erythematous posterior pharynx, no exudates. Chest clear bilaterally.",
+        "diagnosis": "Acute Viral Pharyngitis with Upper Respiratory Tract Infection",
+        "notes": "Rest, warm saline gargles, antipyretics and antihistamines advised.",
+        "followUpDate": "2026-09-17",
+        "timestamp": "09:30 AM"
+      }
+    },
+    {
+      "id": "VST-8893",
+      "patientId": "PT-1026",
+      "patientName": "Rajesh Patel",
+      "tokenNumber": "TKN-103",
+      "checkInTime": "08:45 AM",
+      "method": "NFC",
+      "status": "Pharmacy",
+      "priority": "Normal",
+      "doctorId": "DOC-01",
+      "doctorName": "Dr. Sundar Kumar MD",
+      "prescriptionId": "RX-2039"
+    },
+    {
+      "id": "VST-8894",
+      "patientId": "PT-1027",
+      "patientName": "Ananya Verma",
+      "tokenNumber": "TKN-104",
+      "checkInTime": "09:35 AM",
+      "method": "QR",
+      "status": "Checked In",
+      "priority": "Normal",
+      "doctorId": "DOC-04",
+      "doctorName": "Dr. Kavita Nair MD"
+    },
+    {
+      "id": "VST-8895",
+      "patientId": "PT-1028",
+      "patientName": "Vikram Singh",
+      "tokenNumber": "TKN-105",
+      "checkInTime": "08:15 AM",
+      "method": "RFID",
+      "status": "Medicine Dispensed",
+      "priority": "Normal",
+      "wardAssigned": "Ward 1 - Bed 04",
+      "prescriptionId": "RX-2038"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "RX-2038",
+      "patientId": "PT-1028",
+      "patientName": "Vikram Singh",
+      "doctorId": "DOC-01",
+      "doctorName": "Dr. Sundar Kumar MD",
+      "status": "Dispensed",
+      "createdAt": "08:50 AM",
+      "verifiedAt": "09:05 AM",
+      "dispensedAt": "09:20 AM",
+      "vendingMachineId": "VM-01",
+      "items": [
+        {
+          "id": "RXI-01",
+          "medicineId": "MED-04",
+          "medicineName": "Amoxicillin 500mg",
+          "strength": "500 mg",
+          "dosage": "1 capsule",
+          "frequency": "3 times/day",
+          "duration": "5 days",
+          "quantity": 6,
+          "instructions": "Take after meals with plenty of water",
+          "slotNumber": 4
+        }
+      ]
+    },
+    {
+      "id": "RX-2039",
+      "patientId": "PT-1026",
+      "patientName": "Rajesh Patel",
+      "doctorId": "DOC-01",
+      "doctorName": "Dr. Sundar Kumar MD",
+      "status": "Verified",
+      "createdAt": "09:10 AM",
+      "verifiedAt": "09:22 AM",
+      "vendingMachineId": "VM-02",
+      "items": [
+        {
+          "id": "RXI-02",
+          "medicineId": "MED-08",
+          "medicineName": "Metformin 500mg",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "2 times/day",
+          "duration": "14 days",
+          "quantity": 28,
+          "instructions": "Take with morning and evening meal",
+          "slotNumber": 2
+        }
+      ]
+    },
+    {
+      "id": "RX-2040",
+      "patientId": "PT-1025",
+      "patientName": "Priya Sharma",
+      "doctorId": "DOC-03",
+      "doctorName": "Dr. Vignesh Ramesh MS",
+      "status": "Sent to Pharmacy",
+      "createdAt": "09:32 AM",
+      "items": [
+        {
+          "id": "RXI-03",
+          "medicineId": "MED-01",
+          "medicineName": "Paracetamol 500mg",
+          "strength": "500 mg",
+          "dosage": "1 tablet",
+          "frequency": "3 times/day (SOS)",
+          "duration": "3 days",
+          "quantity": 6,
+          "instructions": "Take for fever or pain above 100°F",
+          "slotNumber": 1
+        },
+        {
+          "id": "RXI-04",
+          "medicineId": "MED-02",
+          "medicineName": "Cetirizine 10mg",
+          "strength": "10 mg",
+          "dosage": "1 tablet",
+          "frequency": "Once daily at bedtime",
+          "duration": "5 days",
+          "quantity": 5,
+          "instructions": "May cause mild drowsiness; take at night",
+          "slotNumber": 2
+        }
+      ]
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "LOG-1001",
+      "timestamp": "09:12:04 AM",
+      "actor": "ESP32-GATE-01",
+      "role": "Hardware Terminal",
+      "action": "Patient Check-In",
+      "details": "Arun Kumar (PT-1024) identified via RFID (04:A3:92:7B:11) + Face matching (Confidence 98.4%)",
+      "category": "IDENTIFICATION",
+      "severity": "INFO",
+      "patientId": "PT-1024",
+      "deviceId": "ESP32-GATE-01"
+    },
+    {
+      "id": "LOG-1002",
+      "timestamp": "09:16:30 AM",
+      "actor": "Nurse Shalini",
+      "role": "Nurse",
+      "action": "Vitals Recorded",
+      "details": "Vitals logged for PT-1024 (BP 122/82, HR 76, SpO2 98%, Temp 37.1°C)",
+      "category": "CONSULTATION",
+      "severity": "INFO",
+      "patientId": "PT-1024"
+    },
+    {
+      "id": "LOG-1003",
+      "timestamp": "09:18:12 AM",
+      "actor": "CAM-ENTRANCE-01",
+      "role": "AI Camera",
+      "action": "Face Verification",
+      "details": "Priya Sharma (PT-1025) identified at Registration Camera. Token TKN-102 generated.",
+      "category": "IDENTIFICATION",
+      "severity": "INFO",
+      "patientId": "PT-1025"
+    },
+    {
+      "id": "LOG-1004",
+      "timestamp": "09:20:45 AM",
+      "actor": "VM-01 (Slot 04)",
+      "role": "Vending Controller",
+      "action": "Medicine Dispense",
+      "details": "Dispensed 6x Amoxicillin 500mg for PT-1028 (RX-2038). IR beam confirmed drop. Load cell delta: -40.8g.",
+      "category": "VENDING",
+      "severity": "INFO",
+      "patientId": "PT-1028",
+      "deviceId": "VM-01"
+    },
+    {
+      "id": "LOG-1005",
+      "timestamp": "09:25:10 AM",
+      "actor": "Pharm. R. Lakshmi",
+      "role": "Pharmacist",
+      "action": "Prescription Verified",
+      "details": "Prescription RX-2039 for Rajesh Patel verified. Stock checked, no drug interactions detected.",
+      "category": "PHARMACY",
+      "severity": "INFO",
+      "patientId": "PT-1026"
+    },
+    {
+      "id": "LOG-1006",
+      "timestamp": "09:35:00 AM",
+      "actor": "RB-02 (Hermes)",
+      "role": "Delivery Robot",
+      "action": "Mission Dispatched",
+      "details": "Mission MSN-4089 dispatched to Ward 1 - Bed 04 for patient PT-1028. Route checkpoint RFID-01 verified.",
+      "category": "ROBOT",
+      "severity": "INFO",
+      "patientId": "PT-1028",
+      "deviceId": "RB-02"
+    },
+    {
+      "id": "LOG-1007",
+      "timestamp": "09:38:22 AM",
+      "actor": "System AI Monitor",
+      "role": "System",
+      "action": "Stock Warning",
+      "details": "Cough Syrup (Guaifenesin) Batch B-CGH-25L expires in 15 days (2026-09-25). AI reorder flagged.",
+      "category": "SYSTEM",
+      "severity": "WARNING"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "ALT-01",
+      "timestamp": "Just now",
+      "title": "Low Stock Alert",
+      "message": "Ibuprofen 400mg in VM-01 Slot 5 has reached 22 units (threshold: 20). Reorder recommended.",
+      "severity": "WARNING",
+      "category": "INVENTORY",
+      "isRead": false,
+      "linkTab": "vending"
+    },
+    {
+      "id": "ALT-02",
+      "timestamp": "5 mins ago",
+      "title": "Expiring Medicine Flagged",
+      "message": "Batch B-CGH-25L (Cough Syrup) expires on 25-Sep-2026. Automated stock transfer recommended.",
+      "severity": "WARNING",
+      "category": "PHARMACY",
+      "isRead": false,
+      "linkTab": "inventory"
+    },
+    {
+      "id": "ALT-03",
+      "timestamp": "12 mins ago",
+      "title": "Expired Medicine Blocked",
+      "message": "Ciprofloxacin 500mg Batch B-CIP-24M expired on 31-Aug-2026. Automatically de-indexed from vending.",
+      "severity": "CRITICAL",
+      "category": "SECURITY",
+      "isRead": false,
+      "linkTab": "inventory"
+    },
+    {
+      "id": "ALT-04",
+      "timestamp": "25 mins ago",
+      "title": "Robot En Route",
+      "message": "Rover RB-02 (Hermes) safely traversed RFID-02 checkpoint towards Ward 1.",
+      "severity": "INFO",
+      "category": "ROBOT",
+      "isRead": true,
+      "linkTab": "robot"
+    }
+  ],
+  "traceability": [
+    {
+      "transactionId": "TXN-9021",
+      "timestamp": "09:20 AM",
+      "batchNumber": "B-AMX-26D",
+      "medicineName": "Amoxicillin 500mg (6 caps)",
+      "quantity": 6,
+      "source": "Central Stock Warehouse",
+      "vendingMachine": "VM-01 (Slot 4)",
+      "robot": "RB-02 (Hermes)",
+      "destination": "Ward 1 - Bed 04",
+      "patientId": "PT-1028",
+      "patientName": "Vikram Singh",
+      "status": "In Transit"
+    },
+    {
+      "transactionId": "TXN-9018",
+      "timestamp": "08:40 AM",
+      "batchNumber": "B-PCM-26A",
+      "medicineName": "Paracetamol 500mg (10 tabs)",
+      "quantity": 10,
+      "source": "Central Stock Warehouse",
+      "vendingMachine": "VM-01 (Slot 1)",
+      "robot": "RB-01 (Apollo)",
+      "destination": "Ward 2 - Bed 12",
+      "patientId": "PT-1038",
+      "patientName": "Joseph Vijay",
+      "status": "Delivered"
+    },
+    {
+      "transactionId": "TXN-9012",
+      "timestamp": "Yesterday 04:15 PM",
+      "batchNumber": "B-MET-26H",
+      "medicineName": "Metformin 500mg (28 tabs)",
+      "quantity": 28,
+      "source": "Central Stock Warehouse",
+      "vendingMachine": "VM-02 (Slot 2)",
+      "robot": "Manual / Direct Counter",
+      "destination": "Outpatient Triage",
+      "patientId": "PT-1030",
+      "patientName": "Mohammed Farooq",
+      "status": "Delivered"
+    }
+  ],
+  "emergencies": [
+    {
+      "id": "EMG-2026-01",
+      "code": "CODE BLUE",
+      "title": "Acute Cardiac Arrhythmia & Ventricular Fibrillation",
+      "severity": "CRITICAL",
+      "status": "ACTIVE",
+      "patientId": "PT-2048",
+      "patientName": "Aarav Patel",
+      "age": 52,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "location": {
+        "building": "Main Clinical Tower",
+        "floor": "Level 3 East Wing",
+        "room": "Intensive Cardiac Care Unit (ICCU)",
+        "bed": "Bed 12",
+        "coordinates": {
+          "x": 380,
+          "y": 160
+        }
+      },
+      "detectedAt": "10:32:15 PM",
+      "detectionSource": "IoT Vitals Telemetry",
+      "currentStage": 2,
+      "stageHistory": [
+        {
+          "stage": 1,
+          "title": "Emergency Detected",
+          "timestamp": "10:32:15 PM",
+          "actor": "Telemetry Node ICCU-03 (HR: 188 bpm -> 0 / V-Fib detected)",
+          "completed": true
+        },
+        {
+          "stage": 2,
+          "title": "AI Alert Triggered",
+          "timestamp": "10:32:18 PM",
+          "actor": "AtomiX AI Dispatch Engine (Broadcasting Code Blue Level 3)",
+          "completed": true
+        },
+        {
+          "stage": 3,
+          "title": "Nearest Nurse Notified",
+          "timestamp": "10:32:25 PM",
+          "actor": "Nurse Deepa V. (ICU Senior Nurse, 12m away)",
+          "completed": false
+        },
+        {
+          "stage": 4,
+          "title": "Doctor Assigned",
+          "timestamp": "Pending",
+          "actor": "Dr. Anand Verma MD (Chief Pulmonologist & Critical Care)",
+          "completed": false
+        },
+        {
+          "stage": 5,
+          "title": "Emergency Medicine Prepared",
+          "timestamp": "Pending",
+          "actor": "Smart Vending VM-01 Emergency Slot #01 (Epinephrine Crash Kit)",
+          "completed": false
+        },
+        {
+          "stage": 6,
+          "title": "Team Reached Patient",
+          "timestamp": "Pending",
+          "actor": "Rapid Response Team Alpha (Bedside NFC Verification)",
+          "completed": false
+        },
+        {
+          "stage": 7,
+          "title": "Emergency Resolved",
+          "timestamp": "Pending",
+          "actor": "Attending Physician Sign-off",
+          "completed": false
+        }
+      ],
+      "assignedDoctor": {
+        "id": "DOC-01",
+        "name": "Dr. Anand Verma MD",
+        "specialization": "Pulmonology & Critical Care",
+        "distanceMeters": 45,
+        "etaSeconds": 40,
+        "contact": "+91 98400 11111",
+        "acknowledged": false
+      },
+      "assignedNurse": {
+        "id": "NUR-01",
+        "name": "Nurse Deepa V. (Head Nurse)",
+        "department": "Inpatient Ward 1 & ICU",
+        "distanceMeters": 12,
+        "etaSeconds": 15,
+        "acknowledged": true
+      },
+      "emergencyTeam": {
+        "id": "TEAM-ALPHA",
+        "name": "Rapid Response Team Alpha",
+        "leadDoctor": "Dr. Anand Verma MD",
+        "status": "En Route"
+      },
+      "requiredMedicines": [
+        {
+          "id": "MED-09",
+          "name": "Epinephrine Injection (1mg / 1mL ampoule)",
+          "dosage": "1mg IV push every 3-5 min",
+          "route": "Intravenous",
+          "prepared": false,
+          "source": "Smart Vending VM-01 Slot 01"
+        },
+        {
+          "id": "MED-08",
+          "name": "Atropine Sulfate (0.5mg / 5mL)",
+          "dosage": "1mg IV push",
+          "route": "Intravenous",
+          "prepared": false,
+          "source": "Emergency Crash Cart #02"
+        },
+        {
+          "id": "MED-12",
+          "name": "Amiodarone (150mg / 3mL vial)",
+          "dosage": "300mg IV push in 20-30mL D5W",
+          "route": "Intravenous",
+          "prepared": false,
+          "source": "Emergency Crash Cart #02"
+        }
+      ],
+      "requiredEquipment": [
+        {
+          "name": "Biphasic Defibrillator (Zoll R Series #02)",
+          "location": "ICU Corridor Station A (8m away)",
+          "ready": true
+        },
+        {
+          "name": "Emergency Crash Cart (CC-ICU-01)",
+          "location": "ICU Station B (14m away)",
+          "ready": true
+        },
+        {
+          "name": "High-Flow Suction & Bag-Valve-Mask (BVM)",
+          "location": "Bedside 12 Console",
+          "ready": true
+        }
+      ],
+      "countdownSeconds": 180,
+      "elapsedSeconds": 42
+    },
+    {
+      "id": "EMG-2026-02",
+      "code": "CODE RED",
+      "title": "Severe Anaphylactic Shock & Upper Airway Edema",
+      "severity": "CRITICAL",
+      "status": "RESOLVED",
+      "patientId": "PT-1032",
+      "patientName": "David Thomas",
+      "age": 58,
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "location": {
+        "building": "Main Clinical Tower",
+        "floor": "Ground Floor",
+        "room": "Emergency Observation Bay",
+        "bed": "Bay 03",
+        "coordinates": {
+          "x": 180,
+          "y": 320
+        }
+      },
+      "detectedAt": "08:15:00 PM",
+      "detectionSource": "Bedside Code Blue Button",
+      "currentStage": 7,
+      "stageHistory": [
+        {
+          "stage": 1,
+          "title": "Emergency Detected",
+          "timestamp": "08:15:00 PM",
+          "actor": "Staff Button Push",
+          "completed": true
+        },
+        {
+          "stage": 2,
+          "title": "AI Alert Triggered",
+          "timestamp": "08:15:05 PM",
+          "actor": "AtomiX Dispatch",
+          "completed": true
+        },
+        {
+          "stage": 3,
+          "title": "Nearest Nurse Notified",
+          "timestamp": "08:15:20 PM",
+          "actor": "Mohan Kumar RN",
+          "completed": true
+        },
+        {
+          "stage": 4,
+          "title": "Doctor Assigned",
+          "timestamp": "08:15:40 PM",
+          "actor": "Dr. Rajesh Iyer MD",
+          "completed": true
+        },
+        {
+          "stage": 5,
+          "title": "Emergency Medicine Prepared",
+          "timestamp": "08:16:10 PM",
+          "actor": "EpiPen + Hydrocortisone",
+          "completed": true
+        },
+        {
+          "stage": 6,
+          "title": "Team Reached Patient",
+          "timestamp": "08:16:55 PM",
+          "actor": "Team Bravo",
+          "completed": true
+        },
+        {
+          "stage": 7,
+          "title": "Emergency Resolved",
+          "timestamp": "08:24:30 PM",
+          "actor": "Airway Secured, Epinephrine administered",
+          "completed": true
+        }
+      ],
+      "assignedDoctor": {
+        "id": "DOC-03",
+        "name": "Dr. Rajesh Iyer MD",
+        "specialization": "Emergency Medicine & Trauma",
+        "distanceMeters": 5,
+        "etaSeconds": 0,
+        "contact": "+91 98400 33333",
+        "acknowledged": true
+      },
+      "assignedNurse": {
+        "id": "NUR-02",
+        "name": "Mohan Kumar RN",
+        "department": "Emergency & Triage",
+        "distanceMeters": 3,
+        "etaSeconds": 0,
+        "acknowledged": true
+      },
+      "emergencyTeam": {
+        "id": "TEAM-BRAVO",
+        "name": "Trauma & Anaphylaxis Team",
+        "leadDoctor": "Dr. Rajesh Iyer MD",
+        "status": "On Scene"
+      },
+      "requiredMedicines": [
+        {
+          "id": "MED-09",
+          "name": "Epinephrine 0.5mg IM",
+          "dosage": "0.5mg IM",
+          "route": "Intramuscular",
+          "prepared": true,
+          "source": "Crash Cart"
+        }
+      ],
+      "requiredEquipment": [
+        {
+          "name": "Video Laryngoscope & Intubation Tray",
+          "location": "ER Bay 03",
+          "ready": true
+        }
+      ],
+      "countdownSeconds": 180,
+      "elapsedSeconds": 115,
+      "resolvedAt": "08:24:30 PM",
+      "outcomeNotes": "Airway patency preserved. Vitals normalized: BP 122/80, SpO2 99%. Patient moved to observation."
+    }
+  ],
+  "demoPresetEmergencies": [
+    {
+      "code": "CODE BLUE",
+      "title": "Acute Ventricular Fibrillation & Asystole",
+      "patientId": "PT-2048",
+      "patientName": "Aarav Patel",
+      "age": 52,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "location": {
+        "building": "Main Clinical Tower",
+        "floor": "Level 3 East Wing",
+        "room": "ICU Cardiac Care Unit",
+        "bed": "Bed 12",
+        "coordinates": {
+          "x": 380,
+          "y": 160
+        }
+      },
+      "source": "IoT Vitals Telemetry"
+    },
+    {
+      "code": "TRAUMA ALERT",
+      "title": "Severe Polytrauma & Massive Internal Hemorrhage",
+      "patientId": "PT-1040",
+      "patientName": "Ravi Shankar",
+      "age": 67,
+      "gender": "Male",
+      "bloodGroup": "B-",
+      "location": {
+        "building": "Emergency Pavilion",
+        "floor": "Ground Floor",
+        "room": "Resuscitation Bay",
+        "bed": "Trauma Bay 01",
+        "coordinates": {
+          "x": 140,
+          "y": 280
+        }
+      },
+      "source": "AI Vision Anomaly"
+    },
+    {
+      "code": "CODE STROKE",
+      "title": "Sudden Unilateral Hemiparesis & Dysphasia",
+      "patientId": "PT-1029",
+      "patientName": "Lakshmi Narayanan",
+      "age": 63,
+      "gender": "Female",
+      "bloodGroup": "A-",
+      "location": {
+        "building": "Neuro Sciences Wing",
+        "floor": "Level 2 West",
+        "room": "Stroke Step-down",
+        "bed": "Bed 06",
+        "coordinates": {
+          "x": 260,
+          "y": 210
+        }
+      },
+      "source": "Nurse Call"
+    }
+  ],
+  "users": [
+    {
+      "id": "USR-DOC-01",
+      "name": "Dr. Anand Verma MD",
+      "email": "doctor@atomix.med",
+      "password": "atomix2026",
+      "role": "DOCTOR",
+      "department": "Critical Care & Pulmonology",
+      "title": "Chief Medical Officer / Critical Care Lead",
+      "badgeId": "BADGE-DOC-4091",
+      "avatarUrl": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=150&auto=format&fit=crop&q=80",
+      "lastLogin": "Today, 07:15 AM"
+    },
+    {
+      "id": "USR-ADM-01",
+      "name": "Col. Rajesh Menon",
+      "email": "emergency@atomix.med",
+      "password": "atomix2026",
+      "role": "ADMIN",
+      "department": "Emergency & Trauma Directorate",
+      "title": "Hospital Command Director",
+      "badgeId": "BADGE-DIR-1001",
+      "avatarUrl": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=150&auto=format&fit=crop&q=80",
+      "lastLogin": "Today, 06:45 AM"
+    },
+    {
+      "id": "USR-PHM-01",
+      "name": "Pharm. R. Lakshmi B.Pharm",
+      "email": "pharmacy@atomix.med",
+      "password": "atomix2026",
+      "role": "PHARMACIST",
+      "department": "Central Robotic Pharmacy",
+      "title": "Director of Pharmacy Automation",
+      "badgeId": "BADGE-PHM-3021",
+      "avatarUrl": "https://images.unsplash.com/photo-1594824813576-928987d60f58?w=150&auto=format&fit=crop&q=80",
+      "lastLogin": "Today, 07:30 AM"
+    },
+    {
+      "id": "USR-NUR-01",
+      "name": "Nurse Deepa V. RN",
+      "email": "nurse@atomix.med",
+      "password": "atomix2026",
+      "role": "NURSE",
+      "department": "Inpatient Ward & ICU",
+      "title": "ICU Charge Nurse & Triage Lead",
+      "badgeId": "BADGE-NUR-2201",
+      "avatarUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=150&auto=format&fit=crop&q=80",
+      "lastLogin": "Today, 07:00 AM"
+    },
+    {
+      "id": "USR-SYS-01",
+      "name": "Hospital Enterprise Admin",
+      "email": "admin@atomix.med",
+      "password": "atomix2026",
+      "role": "ADMIN",
+      "department": "Health Informatics & AI Ops",
+      "title": "Command Station Superuser",
+      "badgeId": "BADGE-SYS-0001",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "lastLogin": "Today, 08:00 AM"
+    },
+    {
+      "id": "USR-PAT-01",
+      "name": "Rajesh Kumar",
+      "email": "patient@atomix.med",
+      "password": "atomix2026",
+      "role": "PATIENT",
+      "department": "Outpatient Department (OPD)",
+      "title": "Registered Outpatient (Token #304)",
+      "badgeId": "BADGE-PAT-1001",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "lastLogin": "Today, 08:15 AM"
+    }
+  ]
+}
