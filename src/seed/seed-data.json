@@ -2,696 +2,165 @@
   "patients": [
     {
       "id": "PT-1024",
-      "name": "Arun Kumar",
-      "age": 34,
-      "dob": "1992-04-15",
+      "name": "Karthik Raman",
+      "age": 29,
+      "dob": "1997-03-11",
       "gender": "Male",
-      "phone": "+91 98401 23456",
-      "email": "arun.kumar@example.com",
-      "address": "42 Nehru Nagar, Chennai, Tamil Nadu",
+      "phone": "9000011111",
+      "email": "karthik.raman@example.com",
+      "address": "12 Lake View Street, Madurai",
       "bloodGroup": "B+",
       "emergencyContact": {
-        "name": "Deepa Kumar",
-        "relationship": "Spouse",
-        "phone": "+91 98401 23457"
+        "name": "Radha Raman",
+        "relationship": "Mother",
+        "phone": "9000011112"
       },
       "allergies": [
-        "Penicillin",
-        "Sulfa drugs"
+        "Penicillin"
       ],
-      "existingConditions": [
-        "Mild Hypertension",
-        "Seasonal Asthma"
-      ],
-      "emergencyNotes": "Carries salbutamol inhaler. Prefers Paracetamol over NSAIDs.",
+      "existingConditions": [],
+      "emergencyNotes": "",
       "identifiers": {
         "faceRegistered": true,
-        "faceHash": "SHA256:4f8e9102ab38cc729e1",
-        "rfidUid": "04:A3:92:7B:11",
-        "nfcId": "NFC-9921",
-        "qrCode": "QR-PT1024-AK92"
+        "faceHash": "hash_demo_001",
+        "rfidUid": "04:A1:B2:C3:D4",
+        "nfcId": "NFC-1001",
+        "qrCode": "QR-PT1024-DEMO"
       },
       "status": "Waiting",
       "currentToken": "TKN-101",
-      "lastVisitDate": "2026-08-28",
-      "registeredAt": "2025-11-12",
+      "lastVisitDate": "2026-09-10",
+      "registeredAt": "2026-01-05",
       "biometricConsent": true
     },
     {
       "id": "PT-1025",
-      "name": "Priya Sharma",
-      "age": 28,
-      "dob": "1998-07-22",
+      "name": "Divya Shankar",
+      "age": 24,
+      "dob": "2002-07-22",
       "gender": "Female",
-      "phone": "+91 98765 43210",
-      "email": "priya.sharma@example.com",
-      "address": "15 Gandhi Road, T. Nagar, Chennai",
+      "phone": "9000022221",
+      "email": "divya.shankar@example.com",
+      "address": "45 Anna Nagar, Madurai",
       "bloodGroup": "O+",
       "emergencyContact": {
-        "name": "Ramesh Sharma",
+        "name": "Shankar Prabhu",
         "relationship": "Father",
-        "phone": "+91 98765 43219"
+        "phone": "9000022222"
       },
-      "allergies": [
-        "Aspirin"
-      ],
+      "allergies": [],
       "existingConditions": [
-        "None"
+        "Asthma"
       ],
-      "emergencyNotes": "No significant past surgical history.",
+      "emergencyNotes": "Carries an inhaler",
       "identifiers": {
         "faceRegistered": true,
-        "faceHash": "SHA256:7b11aa882c490ef182a",
-        "rfidUid": "04:B2:88:1C:44",
-        "nfcId": "NFC-9922",
-        "qrCode": "QR-PT1025-PS98"
+        "faceHash": "hash_demo_002",
+        "rfidUid": "04:B2:C3:D4:E5",
+        "nfcId": "NFC-1002",
+        "qrCode": "QR-PT1025-DEMO"
       },
       "status": "Consultation",
       "currentToken": "TKN-102",
-      "lastVisitDate": "2026-09-02",
-      "registeredAt": "2026-01-15",
+      "lastVisitDate": "2026-09-11",
+      "registeredAt": "2026-02-14",
       "biometricConsent": true
     },
     {
       "id": "PT-1026",
-      "name": "Rajesh Patel",
-      "age": 52,
-      "dob": "1974-11-03",
-      "gender": "Male",
-      "phone": "+91 94440 55123",
-      "email": "rajesh.patel@example.com",
-      "address": "88 Anna Salai, Guindy, Chennai",
-      "bloodGroup": "A+",
-      "emergencyContact": {
-        "name": "Meena Patel",
-        "relationship": "Spouse",
-        "phone": "+91 94440 55124"
-      },
-      "allergies": [],
-      "existingConditions": [
-        "Type 2 Diabetes",
-        "Hyperlipidemia"
-      ],
-      "emergencyNotes": "Regular Metformin 500mg user.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:9c1234ea55fbc667123",
-        "rfidUid": "04:F7:31:8A:99",
-        "nfcId": "NFC-9923",
-        "qrCode": "QR-PT1026-RP74"
-      },
-      "status": "Pharmacy",
-      "currentToken": "TKN-103",
-      "lastVisitDate": "2026-09-08",
-      "registeredAt": "2025-06-19",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1027",
-      "name": "Ananya Verma",
-      "age": 19,
-      "dob": "2007-03-14",
-      "gender": "Female",
-      "phone": "+91 91234 56789",
-      "email": "ananya.v@example.com",
-      "address": "104 Velachery Main Road, Chennai",
-      "bloodGroup": "AB+",
-      "emergencyContact": {
-        "name": "Sunita Verma",
-        "relationship": "Mother",
-        "phone": "+91 91234 56780"
-      },
-      "allergies": [
-        "Dust",
-        "Cephalosporins"
-      ],
-      "existingConditions": [
-        "Migraine"
-      ],
-      "emergencyNotes": "Sensitive to loud noise during attacks.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:1a2b3c4d5e6f7a8b9c0",
-        "rfidUid": "04:C5:12:90:3A",
-        "nfcId": "NFC-9924",
-        "qrCode": "QR-PT1027-AV07"
-      },
-      "status": "Checked In",
-      "currentToken": "TKN-104",
-      "lastVisitDate": "2026-08-10",
-      "registeredAt": "2026-03-01",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1028",
-      "name": "Vikram Singh",
-      "age": 45,
-      "dob": "1981-09-29",
-      "gender": "Male",
-      "phone": "+91 93812 34567",
-      "email": "vikram.singh@example.com",
-      "address": "27 Adyar Bridge Road, Chennai",
-      "bloodGroup": "O-",
-      "emergencyContact": {
-        "name": "Kiran Singh",
-        "relationship": "Brother",
-        "phone": "+91 93812 34568"
-      },
-      "allergies": [
-        "Iodine contrast"
-      ],
-      "existingConditions": [
-        "Kidney Stones (treated)"
-      ],
-      "emergencyNotes": "Rare O- blood donor profile.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:3d4e5f6a7b8c9d0e1f2",
-        "rfidUid": "04:E9:82:11:7F",
-        "nfcId": "NFC-9925",
-        "qrCode": "QR-PT1028-VS81"
-      },
-      "status": "Medicine Dispensed",
-      "currentToken": "TKN-105",
-      "lastVisitDate": "2026-09-09",
-      "registeredAt": "2025-08-20",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1029",
-      "name": "Lakshmi Narayanan",
-      "age": 63,
-      "dob": "1963-02-18",
-      "gender": "Female",
-      "phone": "+91 94451 98765",
-      "email": "lakshmi.n@example.com",
-      "address": "67 Luz Church Road, Mylapore, Chennai",
-      "bloodGroup": "A-",
-      "emergencyContact": {
-        "name": "Narayanan S.",
-        "relationship": "Spouse",
-        "phone": "+91 94451 98766"
-      },
-      "allergies": [
-        "Latex"
-      ],
-      "existingConditions": [
-        "Osteoarthritis",
-        "Cardiomegaly"
-      ],
-      "emergencyNotes": "Requires wheelchair assistance.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:8899aabbccddeeff001",
-        "rfidUid": "04:1A:4C:8E:55",
-        "nfcId": "NFC-9926",
-        "qrCode": "QR-PT1029-LN63"
-      },
-      "status": "Waiting",
-      "currentToken": "TKN-106",
-      "lastVisitDate": "2026-08-14",
-      "registeredAt": "2024-10-10",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1030",
-      "name": "Mohammed Farooq",
-      "age": 39,
-      "dob": "1987-12-05",
-      "gender": "Male",
-      "phone": "+91 98840 11223",
-      "email": "farooq.m@example.com",
-      "address": "3 Triplicane High Road, Chennai",
-      "bloodGroup": "B-",
-      "emergencyContact": {
-        "name": "Amina Farooq",
-        "relationship": "Spouse",
-        "phone": "+91 98840 11224"
-      },
-      "allergies": [],
-      "existingConditions": [
-        "GERD"
-      ],
-      "emergencyNotes": "Takes Pantoprazole daily.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:7766554433221100aa1",
-        "rfidUid": "04:7B:99:2D:18",
-        "nfcId": "NFC-9927",
-        "qrCode": "QR-PT1030-MF87"
-      },
-      "status": "Completed",
-      "currentToken": "TKN-107",
-      "lastVisitDate": "2026-09-10",
-      "registeredAt": "2025-04-04",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1031",
-      "name": "Sneha Reddy",
-      "age": 31,
-      "dob": "1995-05-19",
-      "gender": "Female",
-      "phone": "+91 97909 33445",
-      "email": "sneha.reddy@example.com",
-      "address": "12 OMR Road, Thoraipakkam, Chennai",
-      "bloodGroup": "AB-",
-      "emergencyContact": {
-        "name": "Karthik Reddy",
-        "relationship": "Spouse",
-        "phone": "+91 97909 33446"
-      },
-      "allergies": [
-        "NSAIDs"
-      ],
-      "existingConditions": [
-        "Hypothyroidism"
-      ],
-      "emergencyNotes": "Eltroxin 50mcg empty stomach.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:5544332211aabbccddee",
-        "rfidUid": "04:3F:8A:6B:01",
-        "nfcId": "NFC-9928",
-        "qrCode": "QR-PT1031-SR95"
-      },
-      "status": "Checked In",
-      "currentToken": "TKN-108",
-      "lastVisitDate": "2026-09-01",
-      "registeredAt": "2026-02-28",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1032",
-      "name": "David Thomas",
-      "age": 58,
-      "dob": "1968-08-11",
-      "gender": "Male",
-      "phone": "+91 98410 77889",
-      "email": "david.thomas@example.com",
-      "address": "9 Santhome High Road, Mylapore, Chennai",
-      "bloodGroup": "O+",
-      "emergencyContact": {
-        "name": "Grace Thomas",
-        "relationship": "Spouse",
-        "phone": "+91 98410 77890"
-      },
-      "allergies": [
-        "Ciprofloxacin"
-      ],
-      "existingConditions": [
-        "Coronary Artery Disease",
-        "Post-Stent (2023)"
-      ],
-      "emergencyNotes": "On blood thinners (Ecosprin + Clopidogrel). Handle trauma cautiously.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:112233445566778899aa",
-        "rfidUid": "04:9C:14:E2:73",
-        "nfcId": "NFC-9929",
-        "qrCode": "QR-PT1032-DT68"
-      },
-      "status": "Consultation",
-      "currentToken": "TKN-109",
-      "lastVisitDate": "2026-09-10",
-      "registeredAt": "2024-05-18",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1033",
-      "name": "Kavitha Balan",
+      "name": "Mohammed Rafiq",
       "age": 41,
-      "dob": "1985-10-30",
-      "gender": "Female",
-      "phone": "+91 99620 44556",
-      "email": "kavitha.balan@example.com",
-      "address": "54 Sterling Road, Nungambakkam, Chennai",
-      "bloodGroup": "B+",
-      "emergencyContact": {
-        "name": "Balan K.",
-        "relationship": "Spouse",
-        "phone": "+91 99620 44557"
-      },
-      "allergies": [],
-      "existingConditions": [
-        "Anemia"
-      ],
-      "emergencyNotes": "Iron supplements prescribed.",
-      "identifiers": {
-        "faceRegistered": false,
-        "rfidUid": "04:5D:71:09:A6",
-        "nfcId": "NFC-9930",
-        "qrCode": "QR-PT1033-KB85"
-      },
-      "status": "Registered",
-      "lastVisitDate": "2026-07-15",
-      "registeredAt": "2026-07-15",
-      "biometricConsent": false
-    },
-    {
-      "id": "PT-1034",
-      "name": "Siddharth Menon",
-      "age": 24,
-      "dob": "2002-06-12",
+      "dob": "1985-11-02",
       "gender": "Male",
-      "phone": "+91 98844 99887",
-      "email": "siddharth.m@example.com",
-      "address": "18 Besant Nagar Beach Road, Chennai",
+      "phone": "9000033331",
+      "email": "mohammed.rafiq@example.com",
+      "address": "78 KK Nagar, Madurai",
       "bloodGroup": "A+",
       "emergencyContact": {
-        "name": "Radha Menon",
-        "relationship": "Mother",
-        "phone": "+91 98844 99888"
-      },
-      "allergies": [
-        "Peanuts"
-      ],
-      "existingConditions": [
-        "Allergic Rhinitis"
-      ],
-      "emergencyNotes": "Carry EpiPen in travel kit.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:00aabb11223344556677",
-        "rfidUid": "04:E1:99:3F:82",
-        "nfcId": "NFC-9931",
-        "qrCode": "QR-PT1034-SM02"
-      },
-      "status": "Waiting",
-      "currentToken": "TKN-110",
-      "lastVisitDate": "2026-08-30",
-      "registeredAt": "2026-04-10",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1035",
-      "name": "Divya Krishnan",
-      "age": 36,
-      "dob": "1990-01-25",
-      "gender": "Female",
-      "phone": "+91 94441 22334",
-      "email": "divya.k@example.com",
-      "address": "77 Kilpauk Garden Road, Chennai",
-      "bloodGroup": "O+",
-      "emergencyContact": {
-        "name": "Gopal Krishnan",
-        "relationship": "Spouse",
-        "phone": "+91 94441 22335"
-      },
-      "allergies": [
-        "Amoxicillin"
-      ],
-      "existingConditions": [
-        "Polycystic Ovary Syndrome"
-      ],
-      "emergencyNotes": "Allergic rash to penicillin derivatives.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:445566778899aabbccdd",
-        "rfidUid": "04:2C:88:41:9E",
-        "nfcId": "NFC-9932",
-        "qrCode": "QR-PT1035-DK90"
-      },
-      "status": "Pharmacy",
-      "currentToken": "TKN-111",
-      "lastVisitDate": "2026-09-10",
-      "registeredAt": "2025-09-14",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1036",
-      "name": "Karthik Raja",
-      "age": 48,
-      "dob": "1978-04-08",
-      "gender": "Male",
-      "phone": "+91 97910 88776",
-      "email": "karthik.raja@example.com",
-      "address": "33 Arcot Road, Kodambakkam, Chennai",
-      "bloodGroup": "B+",
-      "emergencyContact": {
-        "name": "Vani Karthik",
-        "relationship": "Spouse",
-        "phone": "+91 97910 88777"
-      },
-      "allergies": [],
-      "existingConditions": [
-        "Kidney disease stage 1"
-      ],
-      "emergencyNotes": "Monitor creatinine levels.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:a1b2c3d4e5f60718293a",
-        "rfidUid": "04:FA:21:77:3B",
-        "nfcId": "NFC-9933",
-        "qrCode": "QR-PT1036-KR78"
-      },
-      "status": "Waiting",
-      "currentToken": "TKN-112",
-      "lastVisitDate": "2026-09-05",
-      "registeredAt": "2025-01-20",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1037",
-      "name": "Meera Nambiar",
-      "age": 22,
-      "dob": "2004-09-17",
-      "gender": "Female",
-      "phone": "+91 93844 55667",
-      "email": "meera.nambiar@example.com",
-      "address": "61 Harrington Road, Chetpet, Chennai",
-      "bloodGroup": "A+",
-      "emergencyContact": {
-        "name": "Ajit Nambiar",
-        "relationship": "Father",
-        "phone": "+91 93844 55668"
+        "name": "Ayesha Rafiq",
+        "relationship": "Wife",
+        "phone": "9000033332"
       },
       "allergies": [
         "Sulfa drugs"
       ],
       "existingConditions": [
-        "None"
+        "Hypertension"
       ],
-      "emergencyNotes": "College basketball athlete.",
+      "emergencyNotes": "",
       "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:99887766554433221100",
-        "rfidUid": "04:8E:32:5A:CC",
-        "nfcId": "NFC-9934",
-        "qrCode": "QR-PT1037-MN04"
+        "faceRegistered": false,
+        "rfidUid": "04:C3:D4:E5:F6",
+        "nfcId": "NFC-1003",
+        "qrCode": "QR-PT1026-DEMO"
       },
-      "status": "Checked In",
-      "currentToken": "TKN-113",
-      "lastVisitDate": "2026-09-10",
-      "registeredAt": "2026-05-02",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1038",
-      "name": "Joseph Vijay",
-      "age": 50,
-      "dob": "1976-06-22",
-      "gender": "Male",
-      "phone": "+91 98402 33221",
-      "email": "joseph.v@example.com",
-      "address": "14 Neelankarai East Coast Road, Chennai",
-      "bloodGroup": "O+",
-      "emergencyContact": {
-        "name": "Sangeetha Joseph",
-        "relationship": "Spouse",
-        "phone": "+91 98402 33222"
-      },
-      "allergies": [],
-      "existingConditions": [
-        "Cervical Spondylosis"
-      ],
-      "emergencyNotes": "Ergonomic neck support recommended.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:1029384756abcdef1234",
-        "rfidUid": "04:6B:19:D4:21",
-        "nfcId": "NFC-9935",
-        "qrCode": "QR-PT1038-JV76"
-      },
-      "status": "Medicine Delivered",
-      "currentToken": "TKN-114",
+      "status": "Pharmacy",
+      "currentToken": "TKN-103",
       "lastVisitDate": "2026-09-09",
-      "registeredAt": "2024-11-29",
-      "biometricConsent": true
+      "registeredAt": "2025-11-30",
+      "biometricConsent": false
     },
     {
-      "id": "PT-1039",
-      "name": "Harini Sundaram",
-      "age": 29,
-      "dob": "1997-08-04",
+      "id": "PT-1027",
+      "name": "Sneha Pillai",
+      "age": 33,
+      "dob": "1993-05-18",
       "gender": "Female",
-      "phone": "+91 99400 66778",
-      "email": "harini.s@example.com",
-      "address": "8 TTK Road, Alwarpet, Chennai",
+      "phone": "9000044441",
+      "email": "sneha.pillai@example.com",
+      "address": "23 Vandiyur Main Road, Madurai",
       "bloodGroup": "AB+",
       "emergencyContact": {
-        "name": "Sundaram V.",
-        "relationship": "Father",
-        "phone": "+91 99400 66779"
-      },
-      "allergies": [
-        "Ceftriaxone"
-      ],
-      "existingConditions": [
-        "Asthma"
-      ],
-      "emergencyNotes": "High eosinophil count history.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:fabc1234567890abcdef",
-        "rfidUid": "04:D3:55:01:FE",
-        "nfcId": "NFC-9936",
-        "qrCode": "QR-PT1039-HS97"
-      },
-      "status": "Waiting",
-      "currentToken": "TKN-115",
-      "lastVisitDate": "2026-09-10",
-      "registeredAt": "2026-06-11",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1040",
-      "name": "Ravi Shankar",
-      "age": 67,
-      "dob": "1959-10-14",
-      "gender": "Male",
-      "phone": "+91 94443 88990",
-      "email": "ravi.shankar@example.com",
-      "address": "22 Kasturi Rangan Road, Chennai",
-      "bloodGroup": "B-",
-      "emergencyContact": {
-        "name": "Gayathri Ravi",
-        "relationship": "Daughter",
-        "phone": "+91 94443 88991"
-      },
-      "allergies": [
-        "Codeine"
-      ],
-      "existingConditions": [
-        "Hypertension",
-        "Glaucoma"
-      ],
-      "emergencyNotes": "Eye pressure monitored bi-monthly.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:88112233aabbccddeeff",
-        "rfidUid": "04:12:9A:88:4D",
-        "nfcId": "NFC-9937",
-        "qrCode": "QR-PT1040-RS59"
-      },
-      "status": "Completed",
-      "currentToken": "TKN-116",
-      "lastVisitDate": "2026-09-10",
-      "registeredAt": "2023-09-01",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1041",
-      "name": "Deepak Chawla",
-      "age": 33,
-      "dob": "1993-11-20",
-      "gender": "Male",
-      "phone": "+91 98841 00998",
-      "email": "deepak.chawla@example.com",
-      "address": "90 Nungambakkam High Road, Chennai",
-      "bloodGroup": "A+",
-      "emergencyContact": {
-        "name": "Simran Chawla",
-        "relationship": "Spouse",
-        "phone": "+91 98841 00999"
+        "name": "Anand Pillai",
+        "relationship": "Husband",
+        "phone": "9000044442"
       },
       "allergies": [],
-      "existingConditions": [
-        "None"
-      ],
-      "emergencyNotes": "Routine checkup.",
+      "existingConditions": [],
+      "emergencyNotes": "",
       "identifiers": {
         "faceRegistered": true,
-        "faceHash": "SHA256:55667788990011223344",
-        "rfidUid": "04:77:E4:9C:12",
-        "nfcId": "NFC-9938",
-        "qrCode": "QR-PT1041-DC93"
+        "faceHash": "hash_demo_004",
+        "rfidUid": "04:D4:E5:F6:A7",
+        "nfcId": "NFC-1004",
+        "qrCode": "QR-PT1027-DEMO"
       },
-      "status": "Checked In",
-      "currentToken": "TKN-117",
-      "lastVisitDate": "2026-09-10",
-      "registeredAt": "2026-08-01",
+      "status": "Registered",
+      "lastVisitDate": "2026-09-12",
+      "registeredAt": "2026-09-12",
       "biometricConsent": true
     },
     {
-      "id": "PT-1042",
-      "name": "Geetha Swaminathan",
-      "age": 55,
-      "dob": "1971-03-27",
-      "gender": "Female",
-      "phone": "+91 94452 77665",
-      "email": "geetha.s@example.com",
-      "address": "4 Bishop Wallers Avenue, Mylapore, Chennai",
-      "bloodGroup": "O+",
-      "emergencyContact": {
-        "name": "Swaminathan T.",
-        "relationship": "Spouse",
-        "phone": "+91 94452 77666"
-      },
-      "allergies": [
-        "Morphine"
-      ],
-      "existingConditions": [
-        "Type 2 Diabetes",
-        "Hypothyroid"
-      ],
-      "emergencyNotes": "Fasting glucose tracked monthly.",
-      "identifiers": {
-        "faceRegistered": true,
-        "faceHash": "SHA256:2233445566778899aabb",
-        "rfidUid": "04:AB:12:CD:34",
-        "nfcId": "NFC-9939",
-        "qrCode": "QR-PT1042-GS71"
-      },
-      "status": "Waiting",
-      "currentToken": "TKN-118",
-      "lastVisitDate": "2026-09-08",
-      "registeredAt": "2025-05-15",
-      "biometricConsent": true
-    },
-    {
-      "id": "PT-1043",
-      "name": "Suresh Babu",
-      "age": 42,
-      "dob": "1984-12-31",
+      "id": "PT-1028",
+      "name": "Vignesh Balaji",
+      "age": 19,
+      "dob": "2007-01-09",
       "gender": "Male",
-      "phone": "+91 98403 44556",
-      "email": "suresh.babu@example.com",
-      "address": "10 Haddows Road, Nungambakkam, Chennai",
-      "bloodGroup": "B+",
+      "phone": "9000055551",
+      "email": "vignesh.balaji@example.com",
+      "address": "5 Sourastra Puram, Madurai",
+      "bloodGroup": "O-",
       "emergencyContact": {
-        "name": "Mallika Babu",
-        "relationship": "Spouse",
-        "phone": "+91 98403 44557"
+        "name": "Balaji Ramesh",
+        "relationship": "Father",
+        "phone": "9000055552"
       },
       "allergies": [
-        "Ibuprofen"
+        "Peanuts"
       ],
-      "existingConditions": [
-        "Acid Peptic Disease"
-      ],
-      "emergencyNotes": "Avoid all NSAIDs.",
+      "existingConditions": [],
+      "emergencyNotes": "Severe nut allergy - keep EpiPen nearby",
       "identifiers": {
         "faceRegistered": true,
-        "faceHash": "SHA256:3344556677889900aabb",
-        "rfidUid": "04:EF:56:GH:78",
-        "nfcId": "NFC-9940",
-        "qrCode": "QR-PT1043-SB84"
+        "faceHash": "hash_demo_005",
+        "rfidUid": "04:E5:F6:A7:B8",
+        "nfcId": "NFC-1005",
+        "qrCode": "QR-PT1028-DEMO"
       },
-      "status": "Waiting",
-      "currentToken": "TKN-119",
-      "lastVisitDate": "2026-09-10",
-      "registeredAt": "2025-07-22",
+      "status": "Medicine Dispensed",
+      "currentToken": "TKN-105",
+      "lastVisitDate": "2026-09-08",
+      "registeredAt": "2025-08-19",
       "biometricConsent": true
     }
   ],
@@ -2302,126 +1771,6 @@
       ],
       "countdownSeconds": 180,
       "elapsedSeconds": 42
-    },
-    {
-      "id": "EMG-2026-02",
-      "code": "CODE RED",
-      "title": "Severe Anaphylactic Shock & Upper Airway Edema",
-      "severity": "CRITICAL",
-      "status": "RESOLVED",
-      "patientId": "PT-1032",
-      "patientName": "David Thomas",
-      "age": 58,
-      "gender": "Male",
-      "bloodGroup": "O+",
-      "location": {
-        "building": "Main Clinical Tower",
-        "floor": "Ground Floor",
-        "room": "Emergency Observation Bay",
-        "bed": "Bay 03",
-        "coordinates": {
-          "x": 180,
-          "y": 320
-        }
-      },
-      "detectedAt": "08:15:00 PM",
-      "detectionSource": "Bedside Code Blue Button",
-      "currentStage": 7,
-      "stageHistory": [
-        {
-          "stage": 1,
-          "title": "Emergency Detected",
-          "timestamp": "08:15:00 PM",
-          "actor": "Staff Button Push",
-          "completed": true
-        },
-        {
-          "stage": 2,
-          "title": "AI Alert Triggered",
-          "timestamp": "08:15:05 PM",
-          "actor": "AtomiX Dispatch",
-          "completed": true
-        },
-        {
-          "stage": 3,
-          "title": "Nearest Nurse Notified",
-          "timestamp": "08:15:20 PM",
-          "actor": "Mohan Kumar RN",
-          "completed": true
-        },
-        {
-          "stage": 4,
-          "title": "Doctor Assigned",
-          "timestamp": "08:15:40 PM",
-          "actor": "Dr. Rajesh Iyer MD",
-          "completed": true
-        },
-        {
-          "stage": 5,
-          "title": "Emergency Medicine Prepared",
-          "timestamp": "08:16:10 PM",
-          "actor": "EpiPen + Hydrocortisone",
-          "completed": true
-        },
-        {
-          "stage": 6,
-          "title": "Team Reached Patient",
-          "timestamp": "08:16:55 PM",
-          "actor": "Team Bravo",
-          "completed": true
-        },
-        {
-          "stage": 7,
-          "title": "Emergency Resolved",
-          "timestamp": "08:24:30 PM",
-          "actor": "Airway Secured, Epinephrine administered",
-          "completed": true
-        }
-      ],
-      "assignedDoctor": {
-        "id": "DOC-03",
-        "name": "Dr. Rajesh Iyer MD",
-        "specialization": "Emergency Medicine & Trauma",
-        "distanceMeters": 5,
-        "etaSeconds": 0,
-        "contact": "+91 98400 33333",
-        "acknowledged": true
-      },
-      "assignedNurse": {
-        "id": "NUR-02",
-        "name": "Mohan Kumar RN",
-        "department": "Emergency & Triage",
-        "distanceMeters": 3,
-        "etaSeconds": 0,
-        "acknowledged": true
-      },
-      "emergencyTeam": {
-        "id": "TEAM-BRAVO",
-        "name": "Trauma & Anaphylaxis Team",
-        "leadDoctor": "Dr. Rajesh Iyer MD",
-        "status": "On Scene"
-      },
-      "requiredMedicines": [
-        {
-          "id": "MED-09",
-          "name": "Epinephrine 0.5mg IM",
-          "dosage": "0.5mg IM",
-          "route": "Intramuscular",
-          "prepared": true,
-          "source": "Crash Cart"
-        }
-      ],
-      "requiredEquipment": [
-        {
-          "name": "Video Laryngoscope & Intubation Tray",
-          "location": "ER Bay 03",
-          "ready": true
-        }
-      ],
-      "countdownSeconds": 180,
-      "elapsedSeconds": 115,
-      "resolvedAt": "08:24:30 PM",
-      "outcomeNotes": "Airway patency preserved. Vitals normalized: BP 122/80, SpO2 99%. Patient moved to observation."
     }
   ],
   "demoPresetEmergencies": [
@@ -2489,9 +1838,9 @@
   "users": [
     {
       "id": "USR-DOC-01",
-      "name": "Dr. Anand Verma MD",
+      "name": "Navin",
       "email": "doctor@atomix.med",
-      "password": "atomix2026",
+      "password": "atomix01",
       "role": "DOCTOR",
       "department": "Critical Care & Pulmonology",
       "title": "Chief Medical Officer / Critical Care Lead",
@@ -2501,9 +1850,9 @@
     },
     {
       "id": "USR-ADM-01",
-      "name": "Col. Rajesh Menon",
+      "name": "Saravana",
       "email": "emergency@atomix.med",
-      "password": "atomix2026",
+      "password": "atomix02",
       "role": "ADMIN",
       "department": "Emergency & Trauma Directorate",
       "title": "Hospital Command Director",
@@ -2513,9 +1862,9 @@
     },
     {
       "id": "USR-PHM-01",
-      "name": "Pharm. R. Lakshmi B.Pharm",
+      "name": "Naveen",
       "email": "pharmacy@atomix.med",
-      "password": "atomix2026",
+      "password": "atomix03",
       "role": "PHARMACIST",
       "department": "Central Robotic Pharmacy",
       "title": "Director of Pharmacy Automation",
@@ -2525,9 +1874,9 @@
     },
     {
       "id": "USR-NUR-01",
-      "name": "Nurse Deepa V. RN",
+      "name": "Swetha",
       "email": "nurse@atomix.med",
-      "password": "atomix2026",
+      "password": "atomix04",
       "role": "NURSE",
       "department": "Inpatient Ward & ICU",
       "title": "ICU Charge Nurse & Triage Lead",
@@ -2537,9 +1886,9 @@
     },
     {
       "id": "USR-SYS-01",
-      "name": "Hospital Enterprise Admin",
+      "name": "Saravana",
       "email": "admin@atomix.med",
-      "password": "atomix2026",
+      "password": "atomix05",
       "role": "ADMIN",
       "department": "Health Informatics & AI Ops",
       "title": "Command Station Superuser",
@@ -2549,9 +1898,9 @@
     },
     {
       "id": "USR-PAT-01",
-      "name": "Rajesh Kumar",
+      "name": "patient",
       "email": "patient@atomix.med",
-      "password": "atomix2026",
+      "password": "patient",
       "role": "PATIENT",
       "department": "Outpatient Department (OPD)",
       "title": "Registered Outpatient (Token #304)",
