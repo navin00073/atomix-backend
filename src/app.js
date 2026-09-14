@@ -17,6 +17,7 @@ import alertsRoutes from './routes/alerts.routes.js';
 import traceabilityRoutes from './routes/traceability.routes.js';
 import emergenciesRoutes from './routes/emergencies.routes.js';
 import cameraRoutes from './routes/camera.routes.js';
+import hardwareRoutes from './routes/hardware.routes.js';
 
 dotenv.config();
 
@@ -50,6 +51,7 @@ export function createApp() {
   app.use('/api/traceability', traceabilityRoutes);
   app.use('/api/emergencies', emergenciesRoutes);
   app.use('/api/camera-nodes', cameraRoutes);
+  app.use('/api/hardware', hardwareRoutes);
 
   // 404 handler
   app.use('/api', (req, res) => {
